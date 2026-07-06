@@ -1,0 +1,219 @@
+/* ==========================================
+   Google Font
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ==========================================
+   Global
+========================================== */
+
+html,
+body,
+[class*="css"]{
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0F172A;
+}
+
+.stApp{
+    background:linear-gradient(135deg,#0F172A,#111827,#1E293B);
+    color:white;
+}
+
+/* ==========================================
+   Sidebar
+========================================== */
+
+section[data-testid="stSidebar"]{
+
+    background:#111827;
+
+    border-right:1px solid #334155;
+
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3,
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] label{
+
+    color:white;
+
+}
+
+/* ==========================================
+   Headings
+========================================== */
+
+h1{
+    color:white;
+    font-weight:700;
+}
+
+h2{
+    color:white;
+    font-weight:600;
+}
+
+h3{
+    color:white;
+    font-weight:600;
+}
+
+p{
+    color:#CBD5E1;
+}
+
+/* ==========================================
+   Buttons
+========================================== */
+
+.stButton>button{
+
+    width:100%;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:linear-gradient(90deg,#2563EB,#3B82F6);
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    box-shadow:0px 6px 20px rgba(37,99,235,.30);
+
+}
+
+.stButton>button:hover{
+
+    transform:translateY(-3px);
+
+    background:linear-gradient(90deg,#1D4ED8,#2563EB);
+
+    box-shadow:0px 10px 25px rgba(37,99,235,.50);
+
+}
+
+/* ==========================================
+   Text Input
+========================================== */
+
+.stTextInput input{
+
+    background:#1E293B;
+
+    color:white;
+
+    border:2px solid #2563EB;
+
+    border-radius:30px;
+
+    padding:12px;
+
+}
+
+.stTextInput input:focus{
+
+    border:2px solid #60A5FA;
+
+    box-shadow:none;
+
+}
+
+/* ==========================================
+   Select Box
+========================================== */
+
+.stSelectbox{
+
+    color:white;
+
+}
+
+/* ==========================================
+   Metric Cards
+========================================== */
+
+div[data-testid="metric-container"]{
+
+    background:#1E293B;
+
+    border-radius:18px;
+
+    padding:18px;
+
+    border:1px solid #334155;
+
+    box-shadow:0px 8px 20px rgba(0,0,0,.30);
+
+}
+
+/* ==========================================
+   Success Boxes
+========================================== */
+
+div[data-testid="stAlert"]{
+
+    border-radius:12px;
+
+}
+
+/* ==========================================
+   Tables
+========================================== */
+
+table{
+
+    border-radius:12px;
+
+}
+
+/* ==========================================
+   Divider
+========================================== */
+
+hr{
+
+    border:1px solid #334155;
+
+}
+
+/* ==========================================
+   Footer
+========================================== */
+
+footer{
+
+    visibility:hidden;
+
+}
+
+/* ==========================================
+   Streamlit Menu
+========================================== */
+
+#MainMenu{
+
+    visibility:hidden;
+
+}
+
+header{
+
+    visibility:hidden;
+
+}

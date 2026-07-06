@@ -1,0 +1,1001 @@
+Order_ID,Date,Region,City,Category,Product,Sales,Profit,Quantity,Customer,Payment_Mode,Sales_Person,Rating
+ORD0001,2024-12-12,North,Delhi,Clothing,Jeans,30256,3349,2,Anu,UPI,Kiran,1
+ORD0002,2024-04-11,North,Delhi,Furniture,Table,67237,14284,9,Anu,Cash,Sneha,4
+ORD0003,2024-06-21,East,Kolkata,Furniture,Cupboard,45597,6435,4,Suresh,UPI,Kiran,1
+ORD0004,2024-03-04,East,Bhubaneswar,Grocery,Sugar,6695,1610,9,Pooja,UPI,Vikram,5
+ORD0005,2024-02-10,East,Patna,Furniture,Chair,7006,1579,5,Lakshmi,UPI,Kiran,3
+ORD0006,2024-12-25,West,Ahmedabad,Clothing,Jeans,49520,7832,5,Suresh,Credit Card,Sneha,2
+ORD0007,2024-04-27,West,Pune,Clothing,Shoes,29785,6868,1,Amit,Debit Card,Kiran,3
+ORD0008,2024-11-25,North,Delhi,Grocery,Sugar,28869,6472,7,Nikhil,Credit Card,Vikram,2
+ORD0009,2024-10-25,South,Chennai,Grocery,Milk,35438,8659,7,Pooja,Debit Card,Sneha,2
+ORD0010,2024-11-01,West,Mumbai,Electronics,Laptop,21033,4585,7,Suresh,Cash,Kiran,5
+ORD0011,2024-12-15,West,Ahmedabad,Clothing,Shoes,2504,575,2,Anu,Debit Card,Anjali,1
+ORD0012,2024-09-13,East,Bhubaneswar,Furniture,Cupboard,1425,413,5,Ramesh,UPI,Vikram,5
+ORD0013,2024-01-01,South,Hyderabad,Clothing,Jeans,71697,20775,9,Sai,Debit Card,Ravi,1
+ORD0014,2024-02-10,North,Jaipur,Clothing,Jeans,8592,1142,10,Suresh,Cash,Priya,5
+ORD0015,2024-08-04,South,Hyderabad,Home Appliances,Fan,22643,3131,10,Lakshmi,Credit Card,Vikram,4
+ORD0016,2024-06-22,East,Bhubaneswar,Grocery,Tea,16860,2268,2,Amit,Credit Card,Sneha,1
+ORD0017,2024-02-06,North,Chandigarh,Electronics,Mobile,9834,2745,6,Anu,Credit Card,Vikram,4
+ORD0018,2024-07-27,South,Chennai,Furniture,Bed,76525,14079,8,Lakshmi,UPI,Priya,4
+ORD0019,2024-02-01,East,Bhubaneswar,Home Appliances,Microwave,96561,8875,2,Pooja,Debit Card,Priya,2
+ORD0020,2024-08-24,South,Hyderabad,Grocery,Tea,19373,3347,5,Lakshmi,UPI,Ravi,5
+ORD0021,2024-03-26,North,Delhi,Grocery,Rice,13224,3752,4,Pooja,Cash,Ravi,2
+ORD0022,2024-08-20,West,Mumbai,Furniture,Cupboard,1282,380,5,Divya,Cash,Ravi,2
+ORD0023,2024-06-09,South,Bengaluru,Furniture,Chair,76914,18602,1,Amit,UPI,Ravi,5
+ORD0024,2024-12-11,South,Hyderabad,Grocery,Rice,25356,2410,2,Lakshmi,Cash,Priya,5
+ORD0025,2024-10-16,South,Chennai,Grocery,Rice,82183,8056,10,Anu,Debit Card,Vikram,2
+ORD0026,2024-08-22,East,Kolkata,Clothing,Shirt,18154,4134,5,Karthik,UPI,Rahul,4
+ORD0027,2024-02-05,North,Delhi,Grocery,Oil,67307,9311,6,Lakshmi,Debit Card,Vikram,2
+ORD0028,2024-06-02,West,Ahmedabad,Clothing,Shoes,86717,17028,9,Suresh,Credit Card,Vikram,1
+ORD0029,2024-06-24,North,Chandigarh,Grocery,Oil,36697,5210,4,Lakshmi,Debit Card,Ravi,3
+ORD0030,2024-11-22,North,Delhi,Home Appliances,Washing Machine,6778,547,3,Divya,Credit Card,Ravi,5
+ORD0031,2024-10-06,West,Ahmedabad,Electronics,Laptop,10862,3127,3,Amit,Debit Card,Arjun,4
+ORD0032,2024-12-15,South,Hyderabad,Clothing,Jacket,6229,1730,4,Lakshmi,UPI,Anjali,5
+ORD0033,2024-07-30,West,Ahmedabad,Furniture,Table,22299,6572,3,Amit,Credit Card,Anjali,4
+ORD0034,2024-04-23,South,Bengaluru,Furniture,Chair,51140,13903,8,Lakshmi,Cash,Anjali,3
+ORD0035,2024-05-22,South,Hyderabad,Electronics,Mobile,53227,8102,2,Karthik,Cash,Anjali,1
+ORD0036,2024-08-10,North,Jaipur,Furniture,Bed,35795,3164,10,Karthik,Debit Card,Kiran,5
+ORD0037,2024-01-01,North,Jaipur,Grocery,Oil,34386,3086,7,Anu,Credit Card,Anjali,4
+ORD0038,2024-06-02,North,Chandigarh,Clothing,Shoes,42145,9522,2,Anu,Debit Card,Kiran,3
+ORD0039,2024-12-12,West,Ahmedabad,Clothing,Shoes,17683,2160,7,Ramesh,Debit Card,Kiran,5
+ORD0040,2024-12-01,North,Jaipur,Clothing,Jeans,57346,14500,10,Karthik,Cash,Ravi,4
+ORD0041,2024-12-05,South,Chennai,Home Appliances,Refrigerator,87356,8618,9,Sai,Debit Card,Priya,2
+ORD0042,2024-11-08,East,Kolkata,Furniture,Table,4201,378,8,Suresh,Cash,Kiran,5
+ORD0043,2024-02-24,South,Chennai,Home Appliances,Microwave,53383,7136,1,Pooja,Credit Card,Arjun,5
+ORD0044,2024-12-07,West,Mumbai,Grocery,Oil,16906,3050,8,Anu,Debit Card,Ravi,5
+ORD0045,2024-05-12,West,Ahmedabad,Home Appliances,Refrigerator,98472,26541,8,Lakshmi,Debit Card,Ravi,2
+ORD0046,2024-10-03,East,Bhubaneswar,Electronics,Headphones,31735,4435,6,Suresh,Credit Card,Arjun,2
+ORD0047,2024-10-04,West,Ahmedabad,Furniture,Table,9418,1613,6,Nikhil,Cash,Rahul,2
+ORD0048,2024-06-29,West,Pune,Grocery,Rice,76456,12514,1,Divya,Cash,Kiran,5
+ORD0049,2024-06-21,South,Bengaluru,Furniture,Sofa,58125,10860,7,Pooja,Credit Card,Ravi,2
+ORD0050,2024-03-10,North,Jaipur,Grocery,Milk,87900,7556,7,Nikhil,Credit Card,Rahul,3
+ORD0051,2024-05-22,West,Pune,Furniture,Cupboard,43840,6762,7,Pooja,Debit Card,Priya,4
+ORD0052,2024-11-29,North,Chandigarh,Grocery,Rice,46870,6061,2,Amit,UPI,Sneha,2
+ORD0053,2024-10-15,North,Chandigarh,Furniture,Table,17544,3231,2,Lakshmi,Cash,Vikram,3
+ORD0054,2024-10-23,South,Chennai,Grocery,Rice,22465,6565,2,Amit,Debit Card,Kiran,4
+ORD0055,2024-12-16,South,Hyderabad,Grocery,Oil,14356,3350,5,Sai,UPI,Rahul,3
+ORD0056,2024-08-03,West,Ahmedabad,Clothing,T-Shirt,67317,14975,1,Nikhil,UPI,Kiran,3
+ORD0057,2024-11-11,West,Ahmedabad,Furniture,Cupboard,24086,5815,5,Anu,Cash,Ravi,4
+ORD0058,2024-08-25,East,Bhubaneswar,Furniture,Chair,37559,10289,4,Sai,Cash,Anjali,1
+ORD0059,2024-06-23,West,Pune,Furniture,Cupboard,28802,4552,5,Divya,Debit Card,Rahul,5
+ORD0060,2024-12-19,South,Hyderabad,Furniture,Cupboard,65038,13146,4,Nikhil,Cash,Ravi,1
+ORD0061,2024-07-07,North,Jaipur,Furniture,Cupboard,91673,12240,10,Nikhil,Debit Card,Kiran,5
+ORD0062,2024-04-08,East,Bhubaneswar,Home Appliances,Washing Machine,41189,5573,2,Karthik,UPI,Arjun,2
+ORD0063,2024-11-01,South,Chennai,Home Appliances,Washing Machine,95972,20126,9,Divya,UPI,Sneha,3
+ORD0064,2024-05-20,South,Bengaluru,Furniture,Sofa,2854,672,3,Amit,UPI,Vikram,2
+ORD0065,2024-06-23,West,Mumbai,Electronics,Smart Watch,38268,7013,8,Ramesh,UPI,Vikram,4
+ORD0066,2024-03-18,North,Delhi,Home Appliances,Microwave,10710,2216,1,Ramesh,Debit Card,Priya,2
+ORD0067,2024-09-24,North,Chandigarh,Home Appliances,Fan,79135,20097,4,Pooja,Cash,Ravi,3
+ORD0068,2024-04-16,West,Pune,Grocery,Milk,8894,1904,2,Lakshmi,Debit Card,Priya,2
+ORD0069,2024-12-18,South,Hyderabad,Grocery,Rice,21517,1734,8,Sai,Cash,Vikram,1
+ORD0070,2024-11-16,South,Bengaluru,Clothing,Shirt,10329,2388,5,Sai,Credit Card,Kiran,1
+ORD0071,2024-06-06,South,Chennai,Furniture,Sofa,19643,1880,3,Sai,Debit Card,Ravi,1
+ORD0072,2024-08-12,West,Ahmedabad,Clothing,Shirt,36683,6973,8,Suresh,UPI,Kiran,3
+ORD0073,2024-10-27,East,Kolkata,Electronics,Mobile,89381,23588,10,Amit,Debit Card,Rahul,2
+ORD0074,2024-11-21,West,Ahmedabad,Home Appliances,Washing Machine,24788,7419,7,Nikhil,UPI,Ravi,3
+ORD0075,2024-05-27,West,Pune,Clothing,T-Shirt,22079,3368,8,Pooja,UPI,Ravi,1
+ORD0076,2024-12-02,East,Bhubaneswar,Clothing,T-Shirt,53976,14588,1,Anu,Cash,Kiran,1
+ORD0077,2024-04-14,South,Chennai,Clothing,Shoes,66338,14434,1,Divya,Credit Card,Vikram,4
+ORD0078,2024-10-09,West,Mumbai,Electronics,Smart Watch,32365,7643,5,Amit,Cash,Priya,2
+ORD0079,2024-09-17,North,Jaipur,Electronics,Mobile,66323,18914,5,Divya,Cash,Ravi,4
+ORD0080,2024-09-17,South,Bengaluru,Grocery,Oil,51277,6252,10,Ramesh,UPI,Vikram,4
+ORD0081,2024-10-23,East,Patna,Clothing,T-Shirt,38072,9127,10,Nikhil,Credit Card,Ravi,5
+ORD0082,2024-04-06,West,Pune,Clothing,Shoes,72228,11772,6,Lakshmi,Cash,Sneha,4
+ORD0083,2024-09-10,North,Jaipur,Home Appliances,Microwave,51604,15349,3,Amit,Credit Card,Anjali,1
+ORD0084,2024-12-01,West,Mumbai,Grocery,Tea,3011,719,7,Ramesh,UPI,Ravi,3
+ORD0085,2024-07-13,East,Patna,Home Appliances,Mixer,44065,11788,9,Karthik,Cash,Rahul,5
+ORD0086,2024-11-20,North,Delhi,Clothing,Jeans,98880,9876,2,Suresh,Cash,Arjun,3
+ORD0087,2024-03-15,North,Delhi,Clothing,T-Shirt,39452,6267,7,Lakshmi,Cash,Arjun,2
+ORD0088,2024-10-25,South,Hyderabad,Grocery,Tea,82226,18935,8,Ramesh,Credit Card,Ravi,3
+ORD0089,2024-02-07,West,Pune,Electronics,Monitor,38700,8865,3,Nikhil,Debit Card,Vikram,4
+ORD0090,2024-05-01,East,Bhubaneswar,Clothing,Jeans,51422,13767,2,Pooja,Debit Card,Vikram,3
+ORD0091,2024-11-06,North,Chandigarh,Home Appliances,Washing Machine,2061,421,1,Nikhil,Debit Card,Sneha,5
+ORD0092,2024-11-17,East,Kolkata,Furniture,Bed,33850,7755,3,Suresh,UPI,Vikram,4
+ORD0093,2024-07-31,North,Chandigarh,Clothing,Jeans,12813,3589,6,Ramesh,Credit Card,Arjun,5
+ORD0094,2024-05-31,East,Patna,Grocery,Sugar,22567,3081,8,Karthik,UPI,Ravi,1
+ORD0095,2024-01-08,South,Hyderabad,Home Appliances,Fan,48942,4887,7,Divya,UPI,Ravi,3
+ORD0096,2024-01-13,East,Patna,Home Appliances,Washing Machine,15201,3472,8,Sai,Debit Card,Sneha,1
+ORD0097,2024-06-04,West,Ahmedabad,Clothing,Shirt,16292,1804,1,Nikhil,UPI,Priya,2
+ORD0098,2024-08-02,South,Bengaluru,Home Appliances,Washing Machine,88881,25674,9,Sai,Credit Card,Kiran,1
+ORD0099,2024-08-15,West,Ahmedabad,Home Appliances,Washing Machine,5288,1226,4,Nikhil,Credit Card,Anjali,1
+ORD0100,2024-08-20,East,Patna,Clothing,T-Shirt,53184,7482,2,Suresh,Credit Card,Rahul,1
+ORD0101,2024-04-16,East,Kolkata,Furniture,Bed,27896,2652,9,Sai,Credit Card,Sneha,3
+ORD0102,2024-05-08,South,Chennai,Electronics,Headphones,19964,5934,9,Ramesh,UPI,Rahul,2
+ORD0103,2024-01-27,North,Jaipur,Furniture,Bed,43437,3625,5,Ramesh,Cash,Priya,1
+ORD0104,2024-04-23,West,Pune,Clothing,Shoes,78812,8195,9,Sai,UPI,Vikram,4
+ORD0105,2024-12-30,North,Delhi,Home Appliances,Microwave,56872,13134,8,Nikhil,UPI,Priya,3
+ORD0106,2024-12-30,South,Hyderabad,Furniture,Sofa,82830,18162,9,Karthik,Cash,Vikram,4
+ORD0107,2024-08-19,West,Mumbai,Electronics,Smart Watch,95481,25818,7,Lakshmi,Cash,Anjali,4
+ORD0108,2024-07-10,West,Pune,Electronics,Headphones,56936,8469,5,Ramesh,Cash,Priya,1
+ORD0109,2024-10-11,North,Delhi,Home Appliances,Mixer,98594,23912,3,Amit,Debit Card,Priya,4
+ORD0110,2024-02-23,East,Patna,Home Appliances,Mixer,38700,8207,6,Sai,Credit Card,Arjun,4
+ORD0111,2024-10-20,South,Hyderabad,Clothing,Shoes,49176,5176,5,Lakshmi,Cash,Rahul,5
+ORD0112,2024-06-28,East,Kolkata,Furniture,Sofa,93104,23064,6,Amit,Credit Card,Arjun,5
+ORD0113,2024-07-11,West,Mumbai,Furniture,Chair,13026,3180,4,Pooja,Cash,Anjali,2
+ORD0114,2024-03-20,East,Bhubaneswar,Clothing,Shoes,79148,7811,1,Ramesh,UPI,Priya,3
+ORD0115,2024-04-20,West,Ahmedabad,Home Appliances,Microwave,80570,14281,5,Anu,UPI,Anjali,4
+ORD0116,2024-04-22,North,Jaipur,Grocery,Tea,70066,15888,1,Pooja,UPI,Rahul,2
+ORD0117,2024-09-11,East,Kolkata,Furniture,Sofa,38938,5925,1,Pooja,Credit Card,Arjun,4
+ORD0118,2024-08-11,South,Chennai,Grocery,Sugar,10447,1748,1,Amit,Cash,Priya,3
+ORD0119,2024-06-15,West,Ahmedabad,Home Appliances,Microwave,38947,4102,1,Ramesh,Cash,Anjali,1
+ORD0120,2024-07-21,West,Mumbai,Furniture,Cupboard,78184,13142,2,Divya,Debit Card,Sneha,3
+ORD0121,2024-06-28,South,Hyderabad,Grocery,Rice,70547,13558,6,Ramesh,Credit Card,Priya,2
+ORD0122,2024-03-31,East,Kolkata,Furniture,Bed,21036,5201,2,Nikhil,Cash,Ravi,5
+ORD0123,2024-11-19,East,Patna,Clothing,Jeans,58640,5572,8,Divya,Debit Card,Rahul,3
+ORD0124,2024-02-09,North,Jaipur,Home Appliances,Microwave,5929,548,5,Suresh,Cash,Ravi,5
+ORD0125,2024-03-18,North,Jaipur,Grocery,Oil,43143,9193,9,Amit,Cash,Priya,3
+ORD0126,2024-09-25,North,Chandigarh,Furniture,Chair,33472,7888,8,Anu,Credit Card,Anjali,3
+ORD0127,2024-02-03,East,Bhubaneswar,Home Appliances,Washing Machine,89984,19034,6,Karthik,UPI,Kiran,3
+ORD0128,2024-06-28,East,Patna,Grocery,Oil,44694,4376,3,Divya,Cash,Arjun,5
+ORD0129,2024-12-09,North,Jaipur,Grocery,Tea,85343,21691,3,Anu,UPI,Kiran,5
+ORD0130,2024-09-05,East,Kolkata,Clothing,Jacket,24627,7123,6,Lakshmi,Credit Card,Arjun,2
+ORD0131,2024-01-20,North,Jaipur,Electronics,Smart Watch,71748,18921,9,Karthik,Credit Card,Kiran,2
+ORD0132,2024-07-05,South,Hyderabad,Grocery,Oil,95526,16840,7,Lakshmi,Cash,Vikram,4
+ORD0133,2024-07-07,South,Chennai,Furniture,Sofa,62474,17422,4,Sai,Cash,Ravi,3
+ORD0134,2024-03-11,West,Ahmedabad,Grocery,Tea,22241,5776,10,Divya,UPI,Ravi,3
+ORD0135,2024-05-19,North,Chandigarh,Grocery,Rice,38363,3776,3,Nikhil,Credit Card,Kiran,1
+ORD0136,2024-07-10,South,Bengaluru,Clothing,T-Shirt,55381,5079,9,Lakshmi,Cash,Priya,3
+ORD0137,2024-03-11,South,Hyderabad,Clothing,T-Shirt,94677,21112,3,Amit,Debit Card,Ravi,2
+ORD0138,2024-03-17,West,Pune,Grocery,Rice,11384,958,4,Anu,Cash,Priya,3
+ORD0139,2024-08-22,South,Bengaluru,Electronics,Laptop,32252,5559,10,Suresh,UPI,Ravi,5
+ORD0140,2024-08-07,North,Chandigarh,Grocery,Milk,32711,7787,5,Amit,Debit Card,Sneha,5
+ORD0141,2024-10-05,West,Mumbai,Electronics,Smart Watch,48265,4579,9,Anu,UPI,Kiran,4
+ORD0142,2024-02-04,North,Chandigarh,Home Appliances,Washing Machine,34246,8370,6,Karthik,Credit Card,Priya,5
+ORD0143,2024-12-16,East,Kolkata,Electronics,Headphones,72567,11210,3,Nikhil,Cash,Arjun,2
+ORD0144,2024-01-22,North,Chandigarh,Home Appliances,Mixer,39462,4907,4,Karthik,Debit Card,Kiran,5
+ORD0145,2024-12-01,West,Pune,Electronics,Mobile,38501,6103,1,Karthik,Debit Card,Priya,3
+ORD0146,2024-12-20,West,Pune,Home Appliances,Microwave,45438,13368,8,Nikhil,Debit Card,Vikram,1
+ORD0147,2024-02-22,West,Mumbai,Home Appliances,Fan,24652,4930,6,Suresh,Debit Card,Vikram,3
+ORD0148,2024-01-22,West,Ahmedabad,Home Appliances,Refrigerator,91408,16239,8,Karthik,Cash,Vikram,1
+ORD0149,2024-01-16,North,Chandigarh,Home Appliances,Washing Machine,68251,17488,3,Ramesh,Cash,Rahul,2
+ORD0150,2024-11-05,North,Delhi,Clothing,Jacket,51181,14785,1,Ramesh,Cash,Anjali,3
+ORD0151,2024-11-28,West,Mumbai,Grocery,Oil,70397,11314,6,Divya,Credit Card,Priya,1
+ORD0152,2024-12-26,South,Bengaluru,Grocery,Tea,74619,7902,5,Nikhil,Credit Card,Vikram,4
+ORD0153,2024-02-14,South,Hyderabad,Furniture,Chair,60250,7108,8,Karthik,Debit Card,Priya,5
+ORD0154,2024-04-12,East,Bhubaneswar,Furniture,Table,48381,9285,2,Ramesh,Credit Card,Ravi,1
+ORD0155,2024-03-07,East,Patna,Grocery,Sugar,62263,15989,9,Sai,UPI,Priya,3
+ORD0156,2024-02-07,West,Ahmedabad,Home Appliances,Fan,54843,13667,10,Ramesh,Debit Card,Priya,4
+ORD0157,2024-11-23,West,Ahmedabad,Grocery,Sugar,17821,4867,9,Sai,Credit Card,Arjun,4
+ORD0158,2024-12-29,North,Delhi,Grocery,Oil,40862,4749,6,Lakshmi,Debit Card,Vikram,1
+ORD0159,2024-09-30,East,Kolkata,Grocery,Sugar,17406,3785,10,Suresh,Credit Card,Arjun,2
+ORD0160,2024-05-15,East,Patna,Electronics,Laptop,11646,1048,10,Lakshmi,Cash,Rahul,4
+ORD0161,2024-06-01,East,Patna,Clothing,Shirt,33096,8506,7,Nikhil,UPI,Rahul,2
+ORD0162,2024-06-09,West,Pune,Home Appliances,Microwave,27741,4295,3,Karthik,Debit Card,Kiran,2
+ORD0163,2024-05-16,East,Patna,Grocery,Rice,42827,5703,2,Nikhil,Credit Card,Arjun,1
+ORD0164,2024-06-16,North,Jaipur,Home Appliances,Fan,55805,7512,3,Sai,Debit Card,Sneha,2
+ORD0165,2024-07-20,West,Ahmedabad,Home Appliances,Microwave,41441,7849,2,Anu,Cash,Sneha,2
+ORD0166,2024-05-26,East,Kolkata,Electronics,Headphones,65866,13927,8,Anu,UPI,Priya,4
+ORD0167,2024-10-18,South,Bengaluru,Clothing,Shirt,48964,4404,1,Anu,Credit Card,Anjali,5
+ORD0168,2024-11-15,East,Kolkata,Home Appliances,Fan,60028,14897,5,Sai,UPI,Arjun,1
+ORD0169,2024-11-04,West,Pune,Clothing,Shoes,48920,12038,4,Anu,Cash,Rahul,1
+ORD0170,2024-09-20,North,Delhi,Clothing,Shirt,69069,12469,10,Ramesh,Debit Card,Anjali,2
+ORD0171,2024-09-29,West,Ahmedabad,Clothing,Shoes,45089,8639,9,Nikhil,Debit Card,Ravi,1
+ORD0172,2024-11-01,East,Bhubaneswar,Electronics,Monitor,77507,11446,1,Nikhil,Debit Card,Sneha,1
+ORD0173,2024-01-17,West,Mumbai,Grocery,Milk,50832,5719,4,Sai,UPI,Sneha,1
+ORD0174,2024-09-13,West,Pune,Home Appliances,Refrigerator,55127,12784,7,Sai,Cash,Rahul,2
+ORD0175,2024-08-23,South,Chennai,Clothing,Shirt,69875,11382,3,Anu,Debit Card,Anjali,3
+ORD0176,2024-05-27,West,Mumbai,Furniture,Sofa,74149,10801,5,Lakshmi,Cash,Anjali,4
+ORD0177,2024-07-13,East,Patna,Clothing,Jacket,16974,3499,9,Pooja,Debit Card,Arjun,3
+ORD0178,2024-04-19,North,Jaipur,Electronics,Headphones,58983,13230,8,Lakshmi,Debit Card,Vikram,2
+ORD0179,2024-04-25,North,Chandigarh,Grocery,Oil,32779,2988,9,Lakshmi,UPI,Priya,4
+ORD0180,2024-10-08,East,Patna,Home Appliances,Mixer,90285,22532,1,Ramesh,Cash,Ravi,4
+ORD0181,2024-11-29,South,Bengaluru,Clothing,Jacket,85659,7967,2,Sai,Credit Card,Rahul,2
+ORD0182,2024-01-20,West,Mumbai,Electronics,Monitor,65930,7976,5,Amit,Debit Card,Priya,3
+ORD0183,2024-09-15,East,Bhubaneswar,Grocery,Milk,65738,18119,3,Nikhil,Debit Card,Sneha,1
+ORD0184,2024-05-31,East,Kolkata,Home Appliances,Washing Machine,95188,11514,6,Sai,Credit Card,Arjun,5
+ORD0185,2024-04-04,West,Pune,Grocery,Sugar,12368,2080,2,Ramesh,Cash,Anjali,2
+ORD0186,2024-06-03,North,Jaipur,Home Appliances,Refrigerator,59554,14639,6,Sai,UPI,Vikram,3
+ORD0187,2024-12-26,South,Hyderabad,Electronics,Monitor,41213,4745,9,Divya,UPI,Vikram,3
+ORD0188,2024-07-10,South,Hyderabad,Furniture,Cupboard,21078,3796,10,Pooja,Cash,Sneha,2
+ORD0189,2024-02-27,North,Chandigarh,Home Appliances,Fan,93244,14881,10,Amit,Credit Card,Arjun,2
+ORD0190,2024-09-07,East,Patna,Home Appliances,Mixer,90167,11287,10,Suresh,Cash,Rahul,4
+ORD0191,2024-12-10,South,Chennai,Home Appliances,Microwave,74912,6944,8,Divya,UPI,Kiran,3
+ORD0192,2024-12-24,North,Chandigarh,Furniture,Bed,10572,951,6,Suresh,UPI,Priya,4
+ORD0193,2024-07-10,North,Jaipur,Home Appliances,Refrigerator,18750,4659,7,Pooja,Cash,Kiran,4
+ORD0194,2024-04-01,North,Chandigarh,Grocery,Oil,86660,23334,2,Anu,Cash,Arjun,2
+ORD0195,2024-09-29,North,Delhi,Clothing,Shirt,89276,21265,7,Pooja,Credit Card,Sneha,4
+ORD0196,2024-12-04,East,Kolkata,Clothing,Jeans,96030,23854,1,Pooja,UPI,Sneha,2
+ORD0197,2024-05-05,North,Delhi,Grocery,Rice,59515,12588,1,Amit,Cash,Ravi,2
+ORD0198,2024-06-12,South,Hyderabad,Furniture,Bed,38914,5117,10,Sai,Debit Card,Sneha,3
+ORD0199,2024-10-12,South,Chennai,Grocery,Oil,55206,8066,1,Sai,Credit Card,Kiran,5
+ORD0200,2024-07-28,West,Mumbai,Clothing,Shirt,69742,10469,7,Ramesh,Debit Card,Kiran,2
+ORD0201,2024-01-30,West,Mumbai,Furniture,Sofa,93743,10476,8,Anu,Cash,Kiran,5
+ORD0202,2024-08-18,South,Bengaluru,Furniture,Sofa,27651,4221,2,Karthik,UPI,Sneha,1
+ORD0203,2024-10-27,East,Bhubaneswar,Grocery,Milk,6183,1682,4,Anu,Credit Card,Ravi,2
+ORD0204,2024-09-02,East,Bhubaneswar,Electronics,Mobile,25906,7555,2,Lakshmi,Credit Card,Kiran,2
+ORD0205,2024-05-13,East,Bhubaneswar,Home Appliances,Microwave,70946,15801,5,Karthik,Cash,Ravi,1
+ORD0206,2024-04-23,West,Pune,Furniture,Sofa,42015,7187,10,Ramesh,UPI,Vikram,5
+ORD0207,2024-05-05,West,Pune,Furniture,Table,44236,5777,10,Nikhil,Debit Card,Vikram,4
+ORD0208,2024-09-07,West,Pune,Furniture,Sofa,23185,2568,9,Ramesh,UPI,Rahul,1
+ORD0209,2024-01-05,North,Delhi,Home Appliances,Refrigerator,83667,10953,3,Lakshmi,Cash,Anjali,1
+ORD0210,2024-01-07,West,Ahmedabad,Home Appliances,Mixer,1866,367,7,Amit,Debit Card,Vikram,1
+ORD0211,2024-11-13,West,Mumbai,Electronics,Laptop,69732,7862,4,Anu,Debit Card,Anjali,3
+ORD0212,2024-06-02,West,Mumbai,Clothing,Shirt,61161,12495,4,Suresh,UPI,Priya,4
+ORD0213,2024-02-12,West,Pune,Grocery,Tea,8355,1838,3,Nikhil,Cash,Anjali,5
+ORD0214,2024-08-31,North,Chandigarh,Electronics,Mobile,28710,7989,10,Divya,UPI,Priya,3
+ORD0215,2024-02-09,North,Delhi,Clothing,T-Shirt,28152,5887,7,Divya,Credit Card,Sneha,5
+ORD0216,2024-12-18,West,Ahmedabad,Grocery,Sugar,51311,12634,3,Suresh,Debit Card,Rahul,1
+ORD0217,2024-07-22,West,Mumbai,Electronics,Headphones,80320,20014,10,Karthik,UPI,Vikram,4
+ORD0218,2024-12-04,West,Mumbai,Clothing,Shoes,50207,8786,10,Pooja,UPI,Vikram,2
+ORD0219,2024-07-18,North,Delhi,Clothing,Jeans,50807,12019,3,Karthik,Debit Card,Priya,1
+ORD0220,2024-04-05,North,Jaipur,Home Appliances,Washing Machine,36358,3726,2,Pooja,Cash,Kiran,1
+ORD0221,2024-07-16,North,Delhi,Clothing,Shoes,13198,2789,6,Amit,Debit Card,Kiran,4
+ORD0222,2024-03-27,North,Chandigarh,Grocery,Oil,75967,14786,7,Ramesh,Debit Card,Vikram,3
+ORD0223,2024-09-04,West,Mumbai,Electronics,Mobile,57973,8157,5,Suresh,Debit Card,Vikram,2
+ORD0224,2024-01-04,West,Ahmedabad,Grocery,Oil,61012,6316,5,Pooja,Debit Card,Kiran,3
+ORD0225,2024-12-21,West,Pune,Home Appliances,Fan,18842,2752,10,Lakshmi,Cash,Anjali,2
+ORD0226,2024-07-11,West,Pune,Clothing,Shirt,76481,19275,6,Divya,Cash,Anjali,1
+ORD0227,2024-08-24,South,Chennai,Grocery,Oil,90353,22486,1,Lakshmi,Cash,Vikram,1
+ORD0228,2024-12-03,West,Ahmedabad,Home Appliances,Refrigerator,84012,12318,5,Ramesh,Cash,Kiran,1
+ORD0229,2024-10-05,West,Ahmedabad,Home Appliances,Fan,53534,10576,7,Amit,Debit Card,Priya,1
+ORD0230,2024-11-26,South,Chennai,Clothing,Jeans,85803,18429,10,Pooja,Debit Card,Kiran,1
+ORD0231,2024-10-24,North,Delhi,Clothing,Jeans,67935,16597,9,Sai,Credit Card,Ravi,3
+ORD0232,2024-09-04,West,Pune,Grocery,Milk,20758,3236,1,Suresh,Debit Card,Kiran,1
+ORD0233,2024-09-23,North,Chandigarh,Furniture,Sofa,41880,6511,4,Nikhil,Debit Card,Ravi,1
+ORD0234,2024-01-12,West,Ahmedabad,Home Appliances,Washing Machine,9804,1431,2,Karthik,UPI,Arjun,2
+ORD0235,2024-04-28,South,Chennai,Furniture,Sofa,74380,12927,8,Pooja,Credit Card,Arjun,4
+ORD0236,2024-01-03,West,Mumbai,Grocery,Oil,59926,12601,7,Lakshmi,Credit Card,Vikram,1
+ORD0237,2024-05-14,North,Chandigarh,Furniture,Sofa,43727,5394,2,Nikhil,Debit Card,Kiran,5
+ORD0238,2024-03-29,West,Ahmedabad,Electronics,Headphones,47135,12538,10,Divya,UPI,Arjun,3
+ORD0239,2024-09-18,North,Delhi,Clothing,T-Shirt,24992,4051,3,Pooja,Cash,Arjun,5
+ORD0240,2024-10-11,West,Pune,Furniture,Cupboard,84296,16709,3,Ramesh,Cash,Vikram,2
+ORD0241,2024-09-05,South,Bengaluru,Home Appliances,Fan,8026,2170,1,Ramesh,Credit Card,Kiran,5
+ORD0242,2024-03-26,West,Pune,Home Appliances,Microwave,94079,24909,8,Suresh,UPI,Sneha,3
+ORD0243,2024-10-16,North,Jaipur,Furniture,Bed,38836,4544,8,Nikhil,UPI,Priya,3
+ORD0244,2024-02-22,East,Patna,Electronics,Monitor,72611,9299,7,Lakshmi,Debit Card,Rahul,4
+ORD0245,2024-04-17,East,Bhubaneswar,Electronics,Monitor,16386,4106,4,Sai,Debit Card,Kiran,2
+ORD0246,2024-11-01,South,Hyderabad,Furniture,Chair,75720,11901,5,Anu,Credit Card,Anjali,3
+ORD0247,2024-07-29,East,Patna,Clothing,Shoes,90037,23350,3,Amit,Debit Card,Arjun,2
+ORD0248,2024-10-22,South,Hyderabad,Clothing,Jeans,89635,14914,3,Divya,Cash,Kiran,4
+ORD0249,2024-08-20,North,Chandigarh,Electronics,Monitor,68582,16799,6,Nikhil,Debit Card,Rahul,1
+ORD0250,2024-04-18,West,Ahmedabad,Clothing,T-Shirt,71048,11900,7,Nikhil,Debit Card,Anjali,3
+ORD0251,2024-12-15,East,Patna,Grocery,Oil,75205,20119,6,Amit,UPI,Priya,4
+ORD0252,2024-04-13,North,Delhi,Furniture,Cupboard,60836,4875,7,Ramesh,Debit Card,Arjun,3
+ORD0253,2024-01-27,North,Chandigarh,Clothing,Jacket,11803,1909,3,Pooja,Debit Card,Sneha,4
+ORD0254,2024-10-30,North,Chandigarh,Electronics,Laptop,28973,5357,3,Lakshmi,Cash,Rahul,1
+ORD0255,2024-02-15,East,Kolkata,Home Appliances,Refrigerator,63613,6080,7,Suresh,UPI,Anjali,3
+ORD0256,2024-02-05,East,Kolkata,Home Appliances,Refrigerator,85092,25395,3,Anu,UPI,Arjun,4
+ORD0257,2024-04-21,East,Patna,Furniture,Table,54963,11846,8,Suresh,UPI,Arjun,1
+ORD0258,2024-05-07,West,Pune,Home Appliances,Washing Machine,19327,2599,2,Anu,Debit Card,Rahul,3
+ORD0259,2024-11-26,South,Chennai,Grocery,Milk,25726,6290,5,Amit,Credit Card,Ravi,4
+ORD0260,2024-07-03,North,Delhi,Home Appliances,Fan,10307,2022,1,Karthik,Credit Card,Kiran,5
+ORD0261,2024-01-09,West,Pune,Grocery,Oil,62736,18192,2,Sai,UPI,Rahul,3
+ORD0262,2024-07-31,South,Hyderabad,Electronics,Monitor,67402,9640,9,Pooja,Cash,Priya,5
+ORD0263,2024-03-20,South,Bengaluru,Electronics,Headphones,11357,2186,4,Anu,Debit Card,Kiran,5
+ORD0264,2024-02-29,North,Jaipur,Home Appliances,Refrigerator,8589,1149,7,Nikhil,UPI,Vikram,2
+ORD0265,2024-09-24,North,Delhi,Furniture,Chair,22473,4252,6,Anu,Debit Card,Arjun,3
+ORD0266,2024-05-19,South,Chennai,Clothing,T-Shirt,4847,744,7,Anu,UPI,Vikram,5
+ORD0267,2024-03-26,North,Jaipur,Home Appliances,Fan,48202,4444,10,Karthik,Credit Card,Vikram,1
+ORD0268,2024-05-05,North,Delhi,Grocery,Rice,6772,1821,1,Amit,Cash,Anjali,4
+ORD0269,2024-04-24,South,Hyderabad,Electronics,Smart Watch,94588,22979,7,Karthik,Credit Card,Kiran,3
+ORD0270,2024-04-01,East,Kolkata,Grocery,Sugar,16650,3170,1,Lakshmi,UPI,Kiran,1
+ORD0271,2024-07-07,West,Pune,Clothing,Jacket,12322,2485,1,Lakshmi,Debit Card,Vikram,5
+ORD0272,2024-10-06,South,Bengaluru,Clothing,Shoes,65665,19667,4,Lakshmi,Credit Card,Rahul,4
+ORD0273,2024-06-20,North,Delhi,Grocery,Sugar,84354,22329,1,Amit,Cash,Vikram,1
+ORD0274,2024-12-30,South,Chennai,Furniture,Cupboard,65491,19088,3,Divya,UPI,Rahul,2
+ORD0275,2024-09-15,West,Ahmedabad,Clothing,Shirt,99028,9771,2,Ramesh,Cash,Priya,5
+ORD0276,2024-07-20,North,Jaipur,Furniture,Table,39230,5390,6,Karthik,Debit Card,Ravi,3
+ORD0277,2024-03-25,South,Hyderabad,Furniture,Table,77638,8072,2,Nikhil,Cash,Anjali,4
+ORD0278,2024-03-02,North,Chandigarh,Clothing,Jeans,60233,8904,5,Suresh,Credit Card,Vikram,5
+ORD0279,2024-07-21,North,Delhi,Clothing,Jeans,12955,3063,6,Anu,UPI,Vikram,3
+ORD0280,2024-02-18,South,Hyderabad,Home Appliances,Microwave,73869,18066,4,Nikhil,UPI,Arjun,1
+ORD0281,2024-12-17,North,Delhi,Furniture,Table,26969,7044,6,Suresh,Debit Card,Priya,1
+ORD0282,2024-03-03,North,Delhi,Home Appliances,Refrigerator,13055,3643,6,Amit,Cash,Rahul,2
+ORD0283,2024-03-29,West,Ahmedabad,Home Appliances,Microwave,4864,798,7,Karthik,Credit Card,Arjun,3
+ORD0284,2024-11-27,East,Bhubaneswar,Furniture,Chair,81492,17620,4,Divya,Cash,Kiran,5
+ORD0285,2024-11-25,West,Mumbai,Electronics,Headphones,51202,5642,4,Anu,Credit Card,Rahul,4
+ORD0286,2024-06-13,East,Bhubaneswar,Grocery,Tea,46093,12942,9,Pooja,Debit Card,Arjun,1
+ORD0287,2024-09-28,East,Patna,Furniture,Chair,37822,3513,8,Karthik,Credit Card,Arjun,1
+ORD0288,2024-04-22,South,Chennai,Furniture,Sofa,70951,18417,1,Sai,Cash,Anjali,2
+ORD0289,2024-01-15,South,Hyderabad,Grocery,Sugar,97744,22821,10,Karthik,Credit Card,Sneha,4
+ORD0290,2024-04-22,East,Kolkata,Home Appliances,Mixer,12830,1184,10,Amit,Cash,Rahul,3
+ORD0291,2024-10-27,South,Hyderabad,Clothing,Jeans,43413,4041,3,Ramesh,UPI,Anjali,1
+ORD0292,2024-03-10,East,Patna,Home Appliances,Fan,14242,2193,6,Ramesh,Cash,Ravi,3
+ORD0293,2024-03-30,South,Chennai,Grocery,Milk,47769,6167,10,Pooja,Debit Card,Vikram,2
+ORD0294,2024-01-17,South,Chennai,Electronics,Smart Watch,52327,13980,10,Ramesh,Debit Card,Sneha,5
+ORD0295,2024-06-12,North,Jaipur,Furniture,Sofa,98693,9584,6,Ramesh,UPI,Anjali,4
+ORD0296,2024-02-25,North,Jaipur,Furniture,Table,91855,8718,5,Amit,UPI,Kiran,4
+ORD0297,2024-02-21,West,Mumbai,Home Appliances,Microwave,50638,7963,7,Nikhil,Credit Card,Arjun,4
+ORD0298,2024-02-07,North,Delhi,Clothing,T-Shirt,42774,5879,2,Karthik,Credit Card,Kiran,2
+ORD0299,2024-12-26,North,Chandigarh,Electronics,Headphones,78860,23402,8,Amit,Cash,Arjun,5
+ORD0300,2024-07-28,West,Mumbai,Electronics,Laptop,44397,5559,4,Anu,Debit Card,Vikram,3
+ORD0301,2024-03-19,South,Hyderabad,Electronics,Monitor,75943,15258,8,Amit,Debit Card,Rahul,4
+ORD0302,2024-03-28,North,Jaipur,Grocery,Tea,27171,2753,4,Divya,UPI,Ravi,1
+ORD0303,2024-07-17,East,Bhubaneswar,Home Appliances,Microwave,87643,12121,9,Ramesh,Debit Card,Kiran,3
+ORD0304,2024-05-17,South,Bengaluru,Electronics,Headphones,58637,10690,4,Sai,UPI,Arjun,1
+ORD0305,2024-04-26,North,Chandigarh,Clothing,Shoes,55262,16222,10,Anu,UPI,Kiran,5
+ORD0306,2024-07-21,West,Ahmedabad,Home Appliances,Fan,31886,5891,2,Amit,Credit Card,Priya,4
+ORD0307,2024-12-15,South,Hyderabad,Furniture,Table,17539,1567,2,Pooja,Credit Card,Arjun,5
+ORD0308,2024-06-15,East,Bhubaneswar,Electronics,Laptop,51868,10498,9,Divya,Cash,Rahul,5
+ORD0309,2024-02-21,West,Mumbai,Home Appliances,Refrigerator,20424,4179,10,Suresh,UPI,Vikram,5
+ORD0310,2024-08-30,East,Bhubaneswar,Clothing,Shirt,86824,16221,10,Amit,Credit Card,Vikram,4
+ORD0311,2024-12-19,South,Chennai,Grocery,Tea,6083,1016,6,Lakshmi,UPI,Ravi,3
+ORD0312,2024-12-22,East,Kolkata,Clothing,Jacket,41756,5915,8,Suresh,Credit Card,Arjun,3
+ORD0313,2024-08-14,West,Pune,Clothing,Shirt,80295,17827,4,Lakshmi,Cash,Ravi,5
+ORD0314,2024-07-25,East,Kolkata,Grocery,Oil,9600,1425,9,Ramesh,UPI,Arjun,2
+ORD0315,2024-12-26,South,Hyderabad,Furniture,Chair,60827,5542,6,Lakshmi,Debit Card,Anjali,4
+ORD0316,2024-08-16,West,Ahmedabad,Electronics,Laptop,32711,5297,10,Ramesh,Cash,Anjali,3
+ORD0317,2024-10-19,South,Bengaluru,Electronics,Headphones,4597,758,3,Lakshmi,Credit Card,Sneha,2
+ORD0318,2024-08-30,East,Patna,Home Appliances,Fan,3628,980,1,Ramesh,Credit Card,Rahul,2
+ORD0319,2024-08-23,East,Patna,Clothing,Jacket,56549,15664,6,Divya,Credit Card,Ravi,3
+ORD0320,2024-10-14,West,Ahmedabad,Electronics,Laptop,68045,20404,6,Sai,Debit Card,Vikram,1
+ORD0321,2024-05-13,West,Mumbai,Clothing,Jacket,84964,12874,5,Divya,Credit Card,Arjun,5
+ORD0322,2024-01-14,South,Hyderabad,Grocery,Tea,87577,13163,3,Nikhil,Debit Card,Vikram,4
+ORD0323,2024-06-24,West,Pune,Electronics,Smart Watch,93808,28034,4,Lakshmi,Cash,Anjali,5
+ORD0324,2024-05-12,East,Kolkata,Grocery,Oil,39506,4008,3,Anu,Credit Card,Anjali,1
+ORD0325,2024-07-09,South,Bengaluru,Furniture,Sofa,56112,14217,6,Divya,Debit Card,Ravi,1
+ORD0326,2024-09-13,West,Mumbai,Grocery,Milk,82350,7878,4,Suresh,Cash,Vikram,4
+ORD0327,2024-08-22,North,Delhi,Furniture,Table,45914,7806,10,Ramesh,Debit Card,Arjun,1
+ORD0328,2024-05-20,West,Pune,Furniture,Sofa,84165,7807,8,Lakshmi,Credit Card,Arjun,4
+ORD0329,2024-09-01,North,Delhi,Grocery,Tea,84032,14661,7,Pooja,UPI,Rahul,5
+ORD0330,2024-04-07,South,Chennai,Clothing,T-Shirt,43233,10657,9,Amit,UPI,Sneha,2
+ORD0331,2024-03-26,East,Bhubaneswar,Furniture,Chair,51272,9779,5,Suresh,UPI,Vikram,3
+ORD0332,2024-06-24,West,Ahmedabad,Grocery,Milk,69697,10755,3,Nikhil,Debit Card,Sneha,2
+ORD0333,2024-01-12,West,Mumbai,Furniture,Table,96311,28572,4,Sai,Credit Card,Priya,3
+ORD0334,2024-12-04,North,Jaipur,Clothing,Shoes,82675,7497,1,Suresh,UPI,Rahul,1
+ORD0335,2024-04-15,West,Pune,Home Appliances,Mixer,72733,9862,3,Amit,Debit Card,Kiran,1
+ORD0336,2024-09-18,East,Patna,Grocery,Oil,55896,14686,2,Sai,UPI,Vikram,1
+ORD0337,2024-04-13,North,Jaipur,Furniture,Bed,27181,6826,9,Karthik,Cash,Vikram,2
+ORD0338,2024-04-30,North,Chandigarh,Home Appliances,Refrigerator,91204,26019,6,Amit,UPI,Priya,1
+ORD0339,2024-05-11,West,Mumbai,Electronics,Smart Watch,10836,2591,2,Lakshmi,Cash,Vikram,3
+ORD0340,2024-12-12,West,Mumbai,Electronics,Mobile,6170,1650,6,Karthik,Cash,Priya,1
+ORD0341,2024-11-14,North,Delhi,Furniture,Table,44078,6993,8,Divya,UPI,Anjali,3
+ORD0342,2024-12-19,South,Hyderabad,Home Appliances,Microwave,60839,8505,7,Nikhil,Cash,Arjun,1
+ORD0343,2024-09-04,South,Chennai,Electronics,Mobile,14593,2503,10,Sai,Cash,Arjun,5
+ORD0344,2024-09-04,West,Pune,Grocery,Rice,90714,24818,3,Nikhil,UPI,Kiran,4
+ORD0345,2024-10-22,North,Delhi,Clothing,Jacket,2620,615,9,Sai,Credit Card,Anjali,5
+ORD0346,2024-03-17,North,Jaipur,Furniture,Cupboard,46318,10468,7,Anu,UPI,Rahul,2
+ORD0347,2024-06-18,West,Pune,Furniture,Chair,99491,18720,4,Divya,UPI,Sneha,5
+ORD0348,2024-08-17,West,Pune,Furniture,Chair,61174,10871,10,Suresh,Cash,Ravi,3
+ORD0349,2024-10-08,North,Jaipur,Electronics,Laptop,53879,9197,9,Amit,UPI,Vikram,5
+ORD0350,2024-08-20,South,Chennai,Home Appliances,Washing Machine,48624,12718,4,Karthik,Cash,Anjali,4
+ORD0351,2024-10-07,North,Delhi,Furniture,Chair,45742,7233,5,Anu,Debit Card,Priya,1
+ORD0352,2024-04-06,South,Bengaluru,Furniture,Cupboard,15019,2041,4,Suresh,Cash,Sneha,4
+ORD0353,2024-03-04,South,Chennai,Clothing,T-Shirt,55325,4991,10,Nikhil,Cash,Arjun,4
+ORD0354,2024-09-17,North,Chandigarh,Electronics,Smart Watch,57729,15271,8,Ramesh,Credit Card,Arjun,1
+ORD0355,2024-08-02,West,Ahmedabad,Grocery,Milk,43184,8244,7,Sai,Credit Card,Vikram,4
+ORD0356,2024-06-02,East,Bhubaneswar,Home Appliances,Refrigerator,19111,3264,9,Anu,Debit Card,Sneha,2
+ORD0357,2024-09-14,South,Chennai,Clothing,Jacket,89129,9731,3,Anu,Debit Card,Priya,3
+ORD0358,2024-05-26,West,Ahmedabad,Grocery,Tea,89374,21854,9,Pooja,UPI,Priya,1
+ORD0359,2024-05-26,West,Mumbai,Electronics,Laptop,27201,3773,3,Divya,Credit Card,Rahul,3
+ORD0360,2024-04-24,South,Chennai,Electronics,Headphones,60322,6185,9,Anu,Cash,Sneha,5
+ORD0361,2024-10-09,East,Patna,Electronics,Monitor,51797,8890,6,Amit,UPI,Vikram,2
+ORD0362,2024-04-09,West,Mumbai,Clothing,Shoes,72645,17613,4,Divya,Cash,Arjun,1
+ORD0363,2024-10-11,South,Hyderabad,Grocery,Rice,50440,4486,5,Divya,Credit Card,Arjun,5
+ORD0364,2024-03-19,East,Kolkata,Clothing,Shirt,94020,26913,1,Karthik,UPI,Vikram,4
+ORD0365,2024-02-04,East,Kolkata,Clothing,Shoes,29830,8666,9,Anu,Credit Card,Kiran,5
+ORD0366,2024-07-03,West,Mumbai,Clothing,Jeans,28964,6543,6,Divya,Credit Card,Ravi,5
+ORD0367,2024-11-14,North,Delhi,Clothing,Shirt,32502,9067,10,Lakshmi,UPI,Anjali,4
+ORD0368,2024-07-10,North,Jaipur,Clothing,Shoes,95892,13637,9,Anu,Cash,Ravi,1
+ORD0369,2024-03-26,East,Patna,Furniture,Sofa,68357,6706,2,Anu,UPI,Priya,2
+ORD0370,2024-11-27,South,Chennai,Home Appliances,Mixer,27945,5541,7,Suresh,Credit Card,Rahul,4
+ORD0371,2024-10-12,East,Kolkata,Electronics,Laptop,8113,966,5,Suresh,Credit Card,Vikram,4
+ORD0372,2024-09-30,West,Pune,Home Appliances,Microwave,42471,3555,2,Amit,UPI,Rahul,1
+ORD0373,2024-05-24,East,Patna,Electronics,Headphones,90899,13298,2,Nikhil,Cash,Kiran,1
+ORD0374,2024-05-31,West,Mumbai,Grocery,Oil,18875,4610,9,Ramesh,Debit Card,Anjali,1
+ORD0375,2024-10-07,South,Hyderabad,Electronics,Laptop,76067,16070,9,Suresh,Debit Card,Sneha,3
+ORD0376,2024-05-09,South,Bengaluru,Grocery,Oil,22096,2662,10,Lakshmi,UPI,Arjun,5
+ORD0377,2024-05-08,North,Chandigarh,Home Appliances,Fan,10587,1523,2,Suresh,Credit Card,Ravi,3
+ORD0378,2024-06-11,East,Kolkata,Furniture,Chair,38373,8299,4,Nikhil,Cash,Anjali,5
+ORD0379,2024-08-07,East,Patna,Grocery,Oil,75128,15379,6,Ramesh,UPI,Anjali,2
+ORD0380,2024-09-02,South,Chennai,Home Appliances,Washing Machine,48118,5271,6,Nikhil,Cash,Anjali,3
+ORD0381,2024-03-12,West,Ahmedabad,Electronics,Mobile,85613,18274,5,Anu,Credit Card,Vikram,1
+ORD0382,2024-04-18,North,Delhi,Grocery,Rice,77269,16022,10,Amit,Debit Card,Ravi,2
+ORD0383,2024-08-25,East,Bhubaneswar,Furniture,Bed,97105,26080,3,Anu,UPI,Kiran,3
+ORD0384,2024-03-12,North,Chandigarh,Furniture,Bed,90674,10562,9,Nikhil,Credit Card,Arjun,5
+ORD0385,2024-04-28,South,Chennai,Home Appliances,Washing Machine,6297,806,8,Suresh,Debit Card,Anjali,2
+ORD0386,2024-01-24,North,Chandigarh,Furniture,Bed,48349,7995,8,Amit,Debit Card,Priya,5
+ORD0387,2024-11-30,East,Patna,Clothing,Shoes,72349,14863,7,Pooja,Debit Card,Priya,5
+ORD0388,2024-09-06,East,Bhubaneswar,Furniture,Bed,54194,8543,6,Nikhil,UPI,Arjun,4
+ORD0389,2024-04-05,South,Hyderabad,Electronics,Smart Watch,85341,12099,3,Ramesh,Debit Card,Priya,2
+ORD0390,2024-10-29,West,Pune,Electronics,Monitor,89503,16588,4,Ramesh,Cash,Rahul,2
+ORD0391,2024-01-21,North,Delhi,Grocery,Milk,22119,2425,9,Sai,Credit Card,Rahul,2
+ORD0392,2024-12-04,East,Kolkata,Grocery,Tea,79558,23329,1,Divya,UPI,Sneha,4
+ORD0393,2024-04-03,West,Pune,Furniture,Table,54840,11636,10,Sai,Debit Card,Arjun,3
+ORD0394,2024-02-25,West,Ahmedabad,Grocery,Rice,31122,5079,3,Amit,Credit Card,Kiran,2
+ORD0395,2024-09-14,North,Delhi,Home Appliances,Fan,79618,7053,9,Suresh,UPI,Ravi,2
+ORD0396,2024-12-23,North,Chandigarh,Home Appliances,Fan,56139,9065,1,Anu,Cash,Sneha,4
+ORD0397,2024-09-01,West,Pune,Grocery,Milk,13807,2397,5,Lakshmi,UPI,Vikram,5
+ORD0398,2024-10-22,West,Pune,Furniture,Chair,93949,22886,1,Anu,UPI,Rahul,4
+ORD0399,2024-11-29,South,Chennai,Clothing,Shirt,48483,5015,7,Sai,Debit Card,Vikram,5
+ORD0400,2024-04-14,West,Ahmedabad,Clothing,Shoes,37118,11068,7,Pooja,Cash,Arjun,3
+ORD0401,2024-03-11,West,Pune,Clothing,Shoes,46135,11548,7,Suresh,Credit Card,Ravi,2
+ORD0402,2024-12-22,North,Delhi,Grocery,Tea,45359,11620,10,Amit,Credit Card,Kiran,1
+ORD0403,2024-04-23,North,Delhi,Home Appliances,Fan,58065,5771,5,Karthik,UPI,Rahul,4
+ORD0404,2024-03-30,West,Ahmedabad,Grocery,Sugar,94271,27524,1,Nikhil,Cash,Rahul,2
+ORD0405,2024-11-10,East,Kolkata,Electronics,Smart Watch,67918,13140,4,Ramesh,UPI,Anjali,2
+ORD0406,2024-07-26,North,Delhi,Electronics,Headphones,53354,8413,7,Sai,Credit Card,Rahul,1
+ORD0407,2024-04-25,North,Chandigarh,Clothing,Shoes,77406,12120,5,Sai,Credit Card,Ravi,4
+ORD0408,2024-09-14,North,Jaipur,Furniture,Cupboard,67353,6965,2,Divya,Debit Card,Priya,5
+ORD0409,2024-10-15,East,Patna,Grocery,Sugar,91989,16319,7,Nikhil,Credit Card,Anjali,4
+ORD0410,2024-11-20,West,Ahmedabad,Electronics,Monitor,16239,2220,7,Lakshmi,Credit Card,Anjali,4
+ORD0411,2024-05-27,East,Patna,Grocery,Rice,92857,24428,4,Suresh,Cash,Anjali,1
+ORD0412,2024-04-03,South,Bengaluru,Clothing,Jacket,29647,8204,5,Lakshmi,Cash,Sneha,2
+ORD0413,2024-07-01,South,Bengaluru,Furniture,Table,27577,7271,10,Ramesh,UPI,Priya,1
+ORD0414,2024-11-13,West,Ahmedabad,Electronics,Smart Watch,6539,1743,6,Karthik,Cash,Vikram,4
+ORD0415,2024-01-28,South,Chennai,Clothing,Shirt,30110,7378,3,Anu,Cash,Ravi,5
+ORD0416,2024-03-02,North,Chandigarh,Clothing,Shirt,90959,22803,8,Anu,Cash,Anjali,1
+ORD0417,2024-11-09,North,Chandigarh,Furniture,Cupboard,77153,7882,6,Divya,Credit Card,Vikram,2
+ORD0418,2024-04-17,East,Bhubaneswar,Grocery,Sugar,48962,5898,7,Pooja,Debit Card,Anjali,4
+ORD0419,2024-02-21,East,Bhubaneswar,Furniture,Bed,18188,5373,4,Divya,Credit Card,Kiran,4
+ORD0420,2024-03-09,South,Hyderabad,Furniture,Cupboard,2276,270,8,Anu,Debit Card,Ravi,3
+ORD0421,2024-01-31,East,Patna,Grocery,Rice,53219,5416,3,Lakshmi,Debit Card,Ravi,1
+ORD0422,2024-05-11,West,Ahmedabad,Clothing,Jacket,48312,7694,9,Karthik,UPI,Kiran,1
+ORD0423,2024-03-30,East,Patna,Grocery,Oil,76609,15834,9,Divya,Debit Card,Anjali,5
+ORD0424,2024-11-19,West,Ahmedabad,Home Appliances,Mixer,50947,10953,8,Ramesh,Credit Card,Anjali,4
+ORD0425,2024-11-30,West,Mumbai,Electronics,Mobile,46039,5994,6,Divya,Debit Card,Kiran,3
+ORD0426,2024-01-12,West,Pune,Grocery,Milk,60020,10268,3,Ramesh,Credit Card,Vikram,1
+ORD0427,2024-10-07,South,Hyderabad,Home Appliances,Mixer,13524,1271,8,Amit,UPI,Kiran,5
+ORD0428,2024-06-07,North,Delhi,Clothing,Shoes,21352,2104,7,Lakshmi,Credit Card,Vikram,4
+ORD0429,2024-06-15,South,Hyderabad,Grocery,Oil,4744,416,6,Nikhil,Cash,Vikram,5
+ORD0430,2024-08-10,West,Mumbai,Grocery,Oil,78441,16587,10,Anu,Debit Card,Anjali,4
+ORD0431,2024-06-04,South,Hyderabad,Home Appliances,Washing Machine,48943,8353,3,Amit,UPI,Arjun,3
+ORD0432,2024-06-02,East,Bhubaneswar,Grocery,Rice,91147,25781,8,Amit,Cash,Vikram,5
+ORD0433,2024-08-11,South,Hyderabad,Grocery,Sugar,25716,4386,9,Pooja,Credit Card,Arjun,4
+ORD0434,2024-11-09,West,Mumbai,Clothing,T-Shirt,56343,12258,9,Divya,Debit Card,Vikram,4
+ORD0435,2024-11-12,South,Hyderabad,Furniture,Table,38957,4062,8,Nikhil,Debit Card,Ravi,2
+ORD0436,2024-05-24,East,Kolkata,Furniture,Chair,71119,6035,2,Divya,Credit Card,Ravi,1
+ORD0437,2024-06-08,South,Hyderabad,Furniture,Chair,65694,8394,7,Nikhil,Debit Card,Ravi,1
+ORD0438,2024-10-05,East,Kolkata,Furniture,Chair,35931,9005,2,Nikhil,Credit Card,Sneha,3
+ORD0439,2024-05-06,West,Mumbai,Electronics,Mobile,51436,12842,8,Amit,Credit Card,Ravi,1
+ORD0440,2024-10-08,South,Bengaluru,Home Appliances,Washing Machine,43344,4979,1,Anu,UPI,Vikram,4
+ORD0441,2024-04-30,East,Kolkata,Clothing,T-Shirt,88385,11305,2,Pooja,Debit Card,Rahul,2
+ORD0442,2024-10-24,East,Patna,Electronics,Monitor,32862,2693,1,Nikhil,Credit Card,Anjali,1
+ORD0443,2024-01-31,South,Hyderabad,Home Appliances,Mixer,90908,19645,1,Karthik,Credit Card,Priya,2
+ORD0444,2024-04-08,West,Mumbai,Clothing,Shoes,85495,21072,8,Amit,Cash,Anjali,2
+ORD0445,2024-04-07,East,Kolkata,Home Appliances,Microwave,74272,10757,8,Sai,Credit Card,Anjali,3
+ORD0446,2024-08-18,West,Pune,Grocery,Milk,22016,2094,3,Divya,Debit Card,Anjali,4
+ORD0447,2024-11-13,North,Chandigarh,Grocery,Tea,97161,11738,1,Karthik,Credit Card,Anjali,1
+ORD0448,2024-06-14,West,Mumbai,Grocery,Tea,73281,8347,5,Pooja,Debit Card,Priya,1
+ORD0449,2024-04-08,North,Delhi,Furniture,Table,5099,634,8,Suresh,UPI,Kiran,4
+ORD0450,2024-04-16,East,Kolkata,Clothing,Jeans,80423,19134,1,Nikhil,UPI,Ravi,1
+ORD0451,2024-05-16,East,Patna,Home Appliances,Washing Machine,93855,8712,10,Anu,UPI,Priya,3
+ORD0452,2024-07-16,North,Delhi,Grocery,Rice,14267,3417,9,Lakshmi,Credit Card,Sneha,5
+ORD0453,2024-07-02,South,Chennai,Grocery,Tea,98793,10196,10,Nikhil,Cash,Priya,2
+ORD0454,2024-11-03,South,Chennai,Home Appliances,Fan,45238,10163,9,Nikhil,Debit Card,Anjali,5
+ORD0455,2024-10-15,East,Bhubaneswar,Home Appliances,Microwave,96140,14532,4,Anu,Credit Card,Kiran,5
+ORD0456,2024-05-25,East,Bhubaneswar,Home Appliances,Microwave,53047,4246,1,Sai,UPI,Arjun,3
+ORD0457,2024-10-10,North,Jaipur,Furniture,Table,42275,3583,5,Anu,Credit Card,Priya,1
+ORD0458,2024-05-07,West,Pune,Furniture,Table,35732,5744,10,Lakshmi,Debit Card,Vikram,1
+ORD0459,2024-03-29,West,Ahmedabad,Furniture,Chair,95841,14513,8,Nikhil,UPI,Vikram,1
+ORD0460,2024-08-01,West,Mumbai,Electronics,Headphones,46603,12748,7,Suresh,Credit Card,Rahul,4
+ORD0461,2024-06-16,North,Jaipur,Grocery,Rice,42853,8518,3,Anu,Credit Card,Arjun,1
+ORD0462,2024-05-28,West,Pune,Grocery,Milk,67155,6703,7,Pooja,Credit Card,Arjun,3
+ORD0463,2024-07-23,North,Jaipur,Grocery,Rice,72847,12225,2,Anu,Cash,Arjun,2
+ORD0464,2024-10-14,West,Ahmedabad,Furniture,Cupboard,52815,11803,4,Sai,Credit Card,Sneha,1
+ORD0465,2024-08-04,East,Bhubaneswar,Clothing,Shoes,12743,1334,7,Karthik,Debit Card,Sneha,3
+ORD0466,2024-08-14,East,Patna,Electronics,Headphones,23184,6892,10,Sai,Credit Card,Ravi,1
+ORD0467,2024-01-28,South,Hyderabad,Clothing,Jeans,96484,25819,2,Lakshmi,Credit Card,Vikram,1
+ORD0468,2024-04-17,East,Patna,Electronics,Headphones,59990,11017,6,Anu,Credit Card,Sneha,5
+ORD0469,2024-07-11,East,Patna,Home Appliances,Fan,96672,28837,1,Sai,UPI,Vikram,2
+ORD0470,2024-02-04,North,Jaipur,Furniture,Bed,36557,3351,1,Pooja,Debit Card,Anjali,1
+ORD0471,2024-06-10,North,Jaipur,Home Appliances,Refrigerator,50899,9766,2,Nikhil,UPI,Arjun,2
+ORD0472,2024-06-19,West,Ahmedabad,Electronics,Laptop,33426,9456,5,Nikhil,Cash,Arjun,1
+ORD0473,2024-05-21,East,Patna,Clothing,Jacket,82950,12153,9,Amit,Debit Card,Kiran,1
+ORD0474,2024-07-14,East,Kolkata,Furniture,Sofa,52491,11785,2,Anu,Credit Card,Kiran,2
+ORD0475,2024-04-15,South,Bengaluru,Clothing,Shoes,44160,7896,3,Ramesh,Credit Card,Arjun,3
+ORD0476,2024-09-29,South,Bengaluru,Furniture,Bed,21715,3253,9,Suresh,Credit Card,Anjali,2
+ORD0477,2024-03-18,North,Jaipur,Home Appliances,Microwave,40760,7233,5,Lakshmi,UPI,Arjun,2
+ORD0478,2024-11-01,North,Chandigarh,Grocery,Sugar,80377,16457,4,Lakshmi,Credit Card,Rahul,3
+ORD0479,2024-12-30,North,Chandigarh,Home Appliances,Refrigerator,66840,17789,8,Karthik,Credit Card,Kiran,4
+ORD0480,2024-05-18,West,Mumbai,Furniture,Table,30658,2670,1,Pooja,Credit Card,Sneha,2
+ORD0481,2024-05-06,North,Delhi,Home Appliances,Fan,65217,15086,8,Pooja,Cash,Rahul,5
+ORD0482,2024-10-31,West,Ahmedabad,Clothing,Shirt,81151,23258,10,Anu,UPI,Priya,4
+ORD0483,2024-10-12,West,Mumbai,Furniture,Bed,71499,11942,1,Pooja,UPI,Sneha,3
+ORD0484,2024-11-09,West,Pune,Clothing,Jacket,61469,7168,5,Amit,Credit Card,Ravi,4
+ORD0485,2024-03-10,North,Chandigarh,Grocery,Rice,24562,6172,9,Pooja,Cash,Anjali,4
+ORD0486,2024-02-16,North,Delhi,Home Appliances,Fan,94406,26157,8,Divya,Debit Card,Arjun,1
+ORD0487,2024-09-18,North,Delhi,Home Appliances,Washing Machine,12181,2378,7,Sai,Credit Card,Kiran,5
+ORD0488,2024-03-24,West,Mumbai,Furniture,Sofa,75120,20409,3,Ramesh,Credit Card,Rahul,4
+ORD0489,2024-04-13,East,Bhubaneswar,Home Appliances,Washing Machine,83110,9952,3,Amit,Debit Card,Rahul,4
+ORD0490,2024-04-21,West,Pune,Grocery,Rice,80689,22124,4,Sai,Cash,Ravi,4
+ORD0491,2024-05-22,West,Mumbai,Grocery,Milk,1861,249,9,Sai,Credit Card,Rahul,2
+ORD0492,2024-11-04,South,Hyderabad,Clothing,T-Shirt,20054,5371,10,Divya,Debit Card,Priya,1
+ORD0493,2024-10-20,North,Jaipur,Furniture,Table,89092,12701,10,Anu,Credit Card,Ravi,5
+ORD0494,2024-02-04,East,Kolkata,Electronics,Headphones,43312,6976,7,Pooja,UPI,Vikram,4
+ORD0495,2024-12-22,South,Hyderabad,Clothing,Jacket,70081,11985,4,Lakshmi,UPI,Priya,5
+ORD0496,2024-05-12,North,Jaipur,Grocery,Sugar,56974,12189,6,Anu,Debit Card,Arjun,5
+ORD0497,2024-12-28,West,Ahmedabad,Home Appliances,Microwave,24580,6744,4,Divya,Credit Card,Rahul,1
+ORD0498,2024-01-24,North,Jaipur,Electronics,Mobile,81649,24476,7,Karthik,Debit Card,Sneha,1
+ORD0499,2024-10-08,South,Chennai,Clothing,Jacket,9891,1460,9,Karthik,UPI,Priya,3
+ORD0500,2024-06-18,East,Bhubaneswar,Grocery,Milk,4816,1266,4,Karthik,Cash,Ravi,1
+ORD0501,2024-07-30,South,Bengaluru,Furniture,Cupboard,71381,19779,8,Amit,Debit Card,Anjali,5
+ORD0502,2024-05-23,North,Delhi,Grocery,Sugar,47346,4477,3,Amit,Debit Card,Kiran,5
+ORD0503,2024-12-27,South,Chennai,Grocery,Tea,25560,5391,5,Karthik,UPI,Vikram,4
+ORD0504,2024-04-20,North,Jaipur,Furniture,Sofa,60232,15809,5,Anu,Debit Card,Arjun,1
+ORD0505,2024-09-13,East,Kolkata,Furniture,Chair,59166,11319,8,Ramesh,Credit Card,Anjali,4
+ORD0506,2024-04-15,East,Bhubaneswar,Furniture,Chair,68652,15712,3,Amit,Cash,Kiran,5
+ORD0507,2024-06-19,North,Delhi,Clothing,T-Shirt,91053,24273,2,Nikhil,UPI,Priya,5
+ORD0508,2024-04-12,East,Kolkata,Grocery,Sugar,84735,23409,6,Lakshmi,Debit Card,Vikram,5
+ORD0509,2024-01-08,East,Bhubaneswar,Electronics,Headphones,20571,2358,2,Sai,UPI,Sneha,5
+ORD0510,2024-10-20,East,Patna,Clothing,Jacket,19554,5622,5,Lakshmi,Credit Card,Priya,3
+ORD0511,2024-02-24,East,Patna,Home Appliances,Mixer,18049,1559,1,Pooja,UPI,Priya,4
+ORD0512,2024-11-11,West,Mumbai,Grocery,Milk,83505,22041,8,Karthik,Debit Card,Anjali,2
+ORD0513,2024-02-19,North,Jaipur,Grocery,Oil,13178,3410,8,Nikhil,Debit Card,Ravi,4
+ORD0514,2024-04-03,South,Hyderabad,Furniture,Bed,34823,9779,7,Karthik,Debit Card,Ravi,4
+ORD0515,2024-05-24,North,Delhi,Home Appliances,Mixer,47064,8721,3,Karthik,Credit Card,Priya,4
+ORD0516,2024-10-29,North,Jaipur,Grocery,Rice,40599,8006,7,Pooja,Credit Card,Sneha,5
+ORD0517,2024-08-08,South,Bengaluru,Home Appliances,Mixer,45658,5744,10,Pooja,Debit Card,Sneha,2
+ORD0518,2024-06-15,North,Chandigarh,Grocery,Tea,15984,3361,8,Anu,UPI,Ravi,2
+ORD0519,2024-07-13,East,Bhubaneswar,Electronics,Smart Watch,15253,3520,10,Karthik,Cash,Rahul,1
+ORD0520,2024-09-29,South,Hyderabad,Grocery,Rice,20231,4559,8,Divya,Cash,Ravi,2
+ORD0521,2024-08-10,South,Chennai,Clothing,Jacket,75747,19297,5,Karthik,UPI,Rahul,5
+ORD0522,2024-01-01,West,Mumbai,Clothing,T-Shirt,49394,13743,1,Anu,Debit Card,Priya,3
+ORD0523,2024-07-26,North,Delhi,Home Appliances,Fan,52677,11459,7,Pooja,Cash,Sneha,2
+ORD0524,2024-08-01,West,Mumbai,Furniture,Bed,51409,13650,6,Ramesh,Debit Card,Arjun,2
+ORD0525,2024-03-10,North,Delhi,Electronics,Mobile,95547,26244,7,Suresh,Credit Card,Kiran,4
+ORD0526,2024-07-15,West,Ahmedabad,Furniture,Cupboard,67770,11745,8,Karthik,Credit Card,Arjun,4
+ORD0527,2024-10-06,North,Chandigarh,Home Appliances,Refrigerator,94340,17960,7,Sai,Debit Card,Rahul,1
+ORD0528,2024-03-13,West,Ahmedabad,Clothing,T-Shirt,77056,14327,2,Anu,Debit Card,Ravi,5
+ORD0529,2024-12-16,North,Chandigarh,Grocery,Rice,33142,6096,2,Anu,Debit Card,Rahul,3
+ORD0530,2024-08-03,North,Jaipur,Home Appliances,Fan,62503,12892,6,Karthik,Debit Card,Vikram,2
+ORD0531,2024-02-01,North,Chandigarh,Grocery,Sugar,96285,24331,5,Nikhil,Credit Card,Rahul,3
+ORD0532,2024-05-09,North,Jaipur,Home Appliances,Mixer,17622,3369,5,Ramesh,Debit Card,Vikram,3
+ORD0533,2024-12-03,North,Chandigarh,Electronics,Smart Watch,23886,6693,3,Nikhil,Debit Card,Arjun,3
+ORD0534,2024-03-15,South,Bengaluru,Furniture,Bed,5337,829,2,Sai,Credit Card,Ravi,4
+ORD0535,2024-01-28,West,Mumbai,Home Appliances,Refrigerator,28637,5930,6,Divya,UPI,Rahul,2
+ORD0536,2024-04-29,West,Pune,Home Appliances,Washing Machine,63425,15485,9,Pooja,Cash,Ravi,3
+ORD0537,2024-07-14,South,Chennai,Home Appliances,Mixer,38852,11033,8,Karthik,UPI,Priya,5
+ORD0538,2024-05-10,East,Bhubaneswar,Grocery,Sugar,44904,6262,2,Sai,Cash,Ravi,2
+ORD0539,2024-02-04,South,Chennai,Clothing,Jeans,42060,8431,1,Amit,Cash,Priya,5
+ORD0540,2024-04-08,North,Chandigarh,Home Appliances,Washing Machine,29759,7128,5,Amit,UPI,Priya,1
+ORD0541,2024-07-11,South,Chennai,Electronics,Laptop,12322,3307,3,Sai,Credit Card,Priya,2
+ORD0542,2024-08-06,East,Bhubaneswar,Home Appliances,Mixer,84726,15230,5,Karthik,Debit Card,Arjun,1
+ORD0543,2024-05-15,East,Kolkata,Home Appliances,Microwave,44601,13340,5,Ramesh,Cash,Priya,4
+ORD0544,2024-10-03,South,Chennai,Home Appliances,Refrigerator,85604,16115,3,Pooja,Credit Card,Priya,4
+ORD0545,2024-08-16,East,Kolkata,Electronics,Laptop,10229,2104,5,Amit,Cash,Arjun,1
+ORD0546,2024-10-21,North,Chandigarh,Home Appliances,Washing Machine,20871,4884,7,Amit,Cash,Ravi,4
+ORD0547,2024-03-03,West,Ahmedabad,Electronics,Smart Watch,30602,2470,8,Sai,Debit Card,Anjali,3
+ORD0548,2024-02-11,West,Mumbai,Electronics,Headphones,71074,19029,6,Nikhil,Debit Card,Sneha,2
+ORD0549,2024-11-18,North,Jaipur,Furniture,Sofa,92210,15290,2,Karthik,Cash,Priya,4
+ORD0550,2024-05-02,South,Hyderabad,Electronics,Mobile,4324,1030,10,Nikhil,Cash,Priya,5
+ORD0551,2024-06-21,East,Bhubaneswar,Grocery,Tea,3151,277,1,Amit,Cash,Priya,2
+ORD0552,2024-01-19,West,Ahmedabad,Grocery,Oil,98131,20357,2,Ramesh,Cash,Rahul,4
+ORD0553,2024-02-19,North,Delhi,Furniture,Chair,23577,5167,5,Nikhil,Credit Card,Priya,1
+ORD0554,2024-08-06,North,Jaipur,Grocery,Milk,29910,2808,4,Karthik,Cash,Anjali,1
+ORD0555,2024-03-02,South,Bengaluru,Furniture,Chair,78736,9303,2,Divya,Credit Card,Kiran,2
+ORD0556,2024-03-09,East,Patna,Furniture,Cupboard,32934,9341,1,Suresh,Cash,Arjun,1
+ORD0557,2024-05-25,West,Mumbai,Electronics,Laptop,24516,6956,10,Pooja,Cash,Arjun,2
+ORD0558,2024-11-08,South,Chennai,Clothing,Shoes,60037,10245,3,Amit,Credit Card,Ravi,5
+ORD0559,2024-04-08,North,Chandigarh,Clothing,Jacket,55891,4527,4,Suresh,UPI,Anjali,5
+ORD0560,2024-12-16,South,Bengaluru,Furniture,Sofa,7955,975,3,Nikhil,Cash,Arjun,2
+ORD0561,2024-11-11,North,Delhi,Clothing,Jacket,28471,5000,6,Nikhil,UPI,Priya,1
+ORD0562,2024-08-15,South,Hyderabad,Electronics,Monitor,68489,7227,4,Sai,Debit Card,Kiran,2
+ORD0563,2024-04-12,East,Kolkata,Electronics,Headphones,30855,3134,7,Pooja,Credit Card,Priya,4
+ORD0564,2024-04-01,West,Mumbai,Home Appliances,Refrigerator,29333,8334,8,Pooja,Debit Card,Arjun,4
+ORD0565,2024-12-20,South,Chennai,Clothing,Jacket,27504,4232,1,Sai,UPI,Vikram,2
+ORD0566,2024-05-31,North,Jaipur,Home Appliances,Microwave,23439,5795,4,Sai,Credit Card,Arjun,5
+ORD0567,2024-10-29,South,Hyderabad,Home Appliances,Fan,65122,17562,4,Nikhil,Cash,Vikram,1
+ORD0568,2024-10-29,West,Ahmedabad,Furniture,Table,43899,7705,4,Ramesh,UPI,Kiran,1
+ORD0569,2024-12-22,North,Jaipur,Grocery,Rice,56797,11180,8,Suresh,Cash,Ravi,2
+ORD0570,2024-05-02,North,Chandigarh,Electronics,Monitor,29574,3229,5,Suresh,UPI,Ravi,3
+ORD0571,2024-08-25,South,Chennai,Home Appliances,Fan,98948,20621,8,Ramesh,Cash,Arjun,3
+ORD0572,2024-09-28,West,Ahmedabad,Electronics,Laptop,51446,14227,6,Amit,Debit Card,Kiran,3
+ORD0573,2024-09-20,South,Chennai,Electronics,Smart Watch,45000,10884,1,Karthik,UPI,Priya,4
+ORD0574,2024-12-26,East,Bhubaneswar,Grocery,Rice,48916,7856,9,Suresh,Credit Card,Arjun,3
+ORD0575,2024-12-25,South,Chennai,Electronics,Monitor,97649,27987,10,Lakshmi,Credit Card,Anjali,3
+ORD0576,2024-08-19,East,Patna,Home Appliances,Washing Machine,8138,764,6,Nikhil,UPI,Ravi,5
+ORD0577,2024-04-06,East,Bhubaneswar,Grocery,Sugar,89251,25702,2,Nikhil,UPI,Priya,4
+ORD0578,2024-09-11,South,Bengaluru,Electronics,Laptop,22596,3179,3,Ramesh,Credit Card,Rahul,3
+ORD0579,2024-11-26,West,Ahmedabad,Grocery,Oil,63115,9863,8,Amit,Debit Card,Sneha,1
+ORD0580,2024-09-05,North,Delhi,Grocery,Sugar,54961,11394,6,Sai,Cash,Ravi,3
+ORD0581,2024-01-25,South,Bengaluru,Furniture,Sofa,30724,5731,5,Ramesh,Debit Card,Vikram,4
+ORD0582,2024-12-28,South,Chennai,Furniture,Bed,38387,4610,3,Ramesh,Credit Card,Sneha,1
+ORD0583,2024-04-15,North,Jaipur,Grocery,Oil,58788,8070,3,Anu,UPI,Anjali,3
+ORD0584,2024-01-13,South,Bengaluru,Home Appliances,Fan,22311,4404,2,Pooja,Cash,Arjun,4
+ORD0585,2024-08-30,East,Kolkata,Electronics,Smart Watch,67507,10320,5,Divya,Credit Card,Ravi,3
+ORD0586,2024-06-06,North,Chandigarh,Home Appliances,Mixer,19274,4416,2,Amit,Cash,Sneha,4
+ORD0587,2024-09-26,East,Kolkata,Clothing,T-Shirt,80711,17844,10,Lakshmi,Debit Card,Sneha,1
+ORD0588,2024-06-11,North,Chandigarh,Home Appliances,Mixer,68081,11354,8,Sai,UPI,Anjali,4
+ORD0589,2024-06-25,South,Chennai,Home Appliances,Washing Machine,51608,8361,5,Karthik,Debit Card,Ravi,5
+ORD0590,2024-07-31,North,Delhi,Home Appliances,Microwave,58999,8466,7,Ramesh,UPI,Arjun,2
+ORD0591,2024-07-11,East,Bhubaneswar,Grocery,Sugar,9665,2757,10,Suresh,UPI,Kiran,3
+ORD0592,2024-04-12,West,Mumbai,Grocery,Tea,94093,19283,3,Ramesh,Cash,Vikram,5
+ORD0593,2024-04-24,West,Mumbai,Clothing,Shoes,40834,7705,8,Amit,UPI,Arjun,3
+ORD0594,2024-08-01,East,Patna,Home Appliances,Mixer,86696,19636,5,Ramesh,Cash,Sneha,1
+ORD0595,2024-09-03,North,Jaipur,Home Appliances,Mixer,79497,19399,10,Sai,Cash,Vikram,4
+ORD0596,2024-10-24,North,Jaipur,Grocery,Milk,3299,877,3,Amit,Credit Card,Anjali,4
+ORD0597,2024-01-25,South,Bengaluru,Furniture,Chair,36739,5858,6,Divya,Debit Card,Priya,5
+ORD0598,2024-06-14,South,Chennai,Furniture,Chair,79480,19518,9,Karthik,Debit Card,Vikram,3
+ORD0599,2024-05-24,North,Chandigarh,Grocery,Sugar,19837,1643,9,Karthik,Cash,Kiran,3
+ORD0600,2024-10-13,South,Hyderabad,Furniture,Table,66979,8616,4,Sai,UPI,Kiran,4
+ORD0601,2024-03-12,North,Delhi,Furniture,Chair,63851,9999,6,Nikhil,Debit Card,Arjun,3
+ORD0602,2024-12-18,North,Chandigarh,Electronics,Mobile,17870,4798,3,Lakshmi,Debit Card,Arjun,2
+ORD0603,2024-08-08,South,Hyderabad,Home Appliances,Mixer,11188,941,8,Amit,Credit Card,Priya,1
+ORD0604,2024-02-19,North,Jaipur,Electronics,Headphones,6672,631,1,Suresh,Credit Card,Sneha,2
+ORD0605,2024-06-27,East,Kolkata,Electronics,Mobile,98805,28377,10,Karthik,Credit Card,Sneha,5
+ORD0606,2024-05-24,North,Delhi,Grocery,Rice,70315,8982,4,Ramesh,UPI,Priya,2
+ORD0607,2024-04-02,West,Pune,Grocery,Oil,58627,13377,2,Karthik,Cash,Kiran,2
+ORD0608,2024-03-10,South,Bengaluru,Electronics,Headphones,17202,3139,9,Nikhil,Debit Card,Vikram,5
+ORD0609,2024-11-03,North,Delhi,Clothing,Shirt,16167,2661,8,Divya,Cash,Sneha,5
+ORD0610,2024-12-13,West,Pune,Home Appliances,Refrigerator,10123,2802,8,Karthik,Credit Card,Rahul,4
+ORD0611,2024-03-14,North,Jaipur,Home Appliances,Fan,87317,19981,2,Pooja,Cash,Priya,2
+ORD0612,2024-03-03,North,Jaipur,Furniture,Sofa,27248,5746,7,Lakshmi,Cash,Ravi,3
+ORD0613,2024-09-05,East,Patna,Home Appliances,Washing Machine,63367,14363,7,Anu,Debit Card,Arjun,4
+ORD0614,2024-01-16,North,Delhi,Clothing,Shirt,66178,8654,3,Suresh,UPI,Priya,4
+ORD0615,2024-11-14,North,Delhi,Home Appliances,Fan,90024,13677,5,Sai,UPI,Priya,5
+ORD0616,2024-05-13,West,Pune,Furniture,Sofa,87781,16637,9,Anu,Debit Card,Rahul,1
+ORD0617,2024-08-23,West,Mumbai,Home Appliances,Microwave,42229,11301,8,Amit,UPI,Arjun,5
+ORD0618,2024-09-06,East,Patna,Furniture,Cupboard,57450,6295,7,Suresh,Cash,Ravi,4
+ORD0619,2024-11-11,South,Chennai,Electronics,Monitor,35523,6707,7,Karthik,Debit Card,Anjali,1
+ORD0620,2024-01-14,North,Chandigarh,Electronics,Mobile,49026,7684,10,Karthik,Cash,Priya,4
+ORD0621,2024-04-30,East,Bhubaneswar,Home Appliances,Washing Machine,8398,1893,4,Divya,UPI,Priya,3
+ORD0622,2024-12-02,North,Jaipur,Furniture,Chair,71571,10860,8,Pooja,Cash,Vikram,1
+ORD0623,2024-10-20,West,Ahmedabad,Electronics,Headphones,50510,10378,6,Suresh,Cash,Priya,2
+ORD0624,2024-08-11,East,Bhubaneswar,Grocery,Sugar,22840,4916,6,Lakshmi,Cash,Priya,5
+ORD0625,2024-04-25,South,Bengaluru,Clothing,T-Shirt,39970,11957,7,Sai,UPI,Priya,5
+ORD0626,2024-06-26,East,Bhubaneswar,Electronics,Smart Watch,70607,13031,4,Suresh,Debit Card,Vikram,4
+ORD0627,2024-12-09,East,Kolkata,Home Appliances,Microwave,33933,7380,8,Anu,Credit Card,Rahul,5
+ORD0628,2024-05-17,South,Chennai,Home Appliances,Refrigerator,87613,25553,8,Anu,Cash,Rahul,5
+ORD0629,2024-08-10,South,Bengaluru,Home Appliances,Refrigerator,32506,3676,5,Pooja,Debit Card,Priya,2
+ORD0630,2024-07-26,West,Pune,Clothing,Jeans,34612,7999,4,Lakshmi,UPI,Arjun,2
+ORD0631,2024-08-04,North,Delhi,Clothing,Shirt,64620,13128,7,Amit,Credit Card,Arjun,3
+ORD0632,2024-09-05,South,Hyderabad,Clothing,Jacket,87333,17567,1,Amit,UPI,Priya,3
+ORD0633,2024-07-22,East,Kolkata,Home Appliances,Washing Machine,89037,20000,2,Ramesh,Credit Card,Priya,5
+ORD0634,2024-05-01,North,Chandigarh,Grocery,Milk,34004,6434,2,Sai,UPI,Anjali,3
+ORD0635,2024-04-19,West,Ahmedabad,Furniture,Cupboard,29574,3304,3,Divya,Cash,Kiran,3
+ORD0636,2024-10-06,North,Jaipur,Grocery,Sugar,92700,26764,6,Pooja,Cash,Sneha,3
+ORD0637,2024-01-18,South,Bengaluru,Home Appliances,Washing Machine,41392,3503,10,Amit,Credit Card,Vikram,5
+ORD0638,2024-07-17,West,Pune,Clothing,T-Shirt,71111,19251,8,Amit,Cash,Vikram,3
+ORD0639,2024-11-25,North,Delhi,Clothing,Jeans,22001,6193,6,Pooja,UPI,Vikram,1
+ORD0640,2024-03-23,West,Pune,Home Appliances,Washing Machine,95029,16432,2,Divya,UPI,Anjali,4
+ORD0641,2024-11-24,East,Bhubaneswar,Electronics,Laptop,85066,18812,8,Ramesh,UPI,Kiran,2
+ORD0642,2024-12-31,East,Bhubaneswar,Grocery,Rice,15526,1781,9,Ramesh,Cash,Anjali,4
+ORD0643,2024-05-24,West,Ahmedabad,Furniture,Sofa,23738,5489,6,Lakshmi,UPI,Kiran,3
+ORD0644,2024-10-12,South,Bengaluru,Home Appliances,Fan,30423,2572,1,Sai,Credit Card,Priya,4
+ORD0645,2024-05-13,South,Bengaluru,Furniture,Chair,53564,11567,10,Ramesh,UPI,Anjali,2
+ORD0646,2024-03-01,North,Delhi,Grocery,Tea,60468,15842,8,Lakshmi,Credit Card,Sneha,3
+ORD0647,2024-11-03,East,Patna,Home Appliances,Microwave,18065,3159,4,Lakshmi,Debit Card,Sneha,4
+ORD0648,2024-11-12,South,Bengaluru,Furniture,Chair,39036,11505,4,Nikhil,Credit Card,Anjali,5
+ORD0649,2024-12-17,West,Mumbai,Electronics,Monitor,18459,5015,7,Lakshmi,Cash,Kiran,5
+ORD0650,2024-08-29,East,Kolkata,Electronics,Smart Watch,8700,795,4,Karthik,UPI,Rahul,3
+ORD0651,2024-01-22,West,Pune,Home Appliances,Washing Machine,18332,5370,9,Sai,Credit Card,Vikram,2
+ORD0652,2024-08-09,West,Pune,Home Appliances,Refrigerator,12750,1910,9,Ramesh,Debit Card,Priya,3
+ORD0653,2024-05-24,North,Delhi,Home Appliances,Washing Machine,99018,15776,7,Divya,Debit Card,Anjali,4
+ORD0654,2024-01-28,South,Bengaluru,Home Appliances,Refrigerator,73833,19762,8,Lakshmi,Credit Card,Rahul,2
+ORD0655,2024-02-29,South,Hyderabad,Home Appliances,Washing Machine,22437,5279,7,Nikhil,UPI,Ravi,3
+ORD0656,2024-06-27,West,Pune,Home Appliances,Mixer,95340,25809,2,Suresh,Credit Card,Vikram,2
+ORD0657,2024-04-18,South,Chennai,Grocery,Sugar,74825,20651,10,Sai,UPI,Arjun,4
+ORD0658,2024-07-20,North,Delhi,Home Appliances,Mixer,44077,3777,2,Karthik,UPI,Anjali,2
+ORD0659,2024-10-31,North,Delhi,Home Appliances,Microwave,60513,13206,5,Amit,Debit Card,Rahul,5
+ORD0660,2024-06-14,West,Pune,Grocery,Oil,28704,7747,5,Amit,UPI,Kiran,1
+ORD0661,2024-03-24,West,Pune,Furniture,Table,53286,5308,4,Pooja,Cash,Vikram,2
+ORD0662,2024-12-16,North,Jaipur,Home Appliances,Microwave,97454,25084,5,Sai,Credit Card,Anjali,1
+ORD0663,2024-05-17,East,Patna,Furniture,Cupboard,59385,16318,8,Sai,Cash,Priya,4
+ORD0664,2024-09-19,East,Patna,Furniture,Cupboard,83665,14534,1,Karthik,Cash,Sneha,2
+ORD0665,2024-09-01,West,Ahmedabad,Grocery,Rice,39103,7156,2,Divya,Credit Card,Arjun,3
+ORD0666,2024-01-24,South,Chennai,Home Appliances,Washing Machine,75519,6834,2,Anu,UPI,Kiran,4
+ORD0667,2024-09-14,North,Jaipur,Grocery,Sugar,47590,6475,2,Amit,UPI,Ravi,2
+ORD0668,2024-06-09,South,Bengaluru,Electronics,Laptop,55558,15161,5,Sai,Cash,Ravi,5
+ORD0669,2024-05-12,East,Bhubaneswar,Furniture,Table,25259,2455,10,Suresh,Cash,Rahul,1
+ORD0670,2024-12-02,West,Mumbai,Electronics,Mobile,86957,16084,7,Sai,Cash,Vikram,5
+ORD0671,2024-04-07,East,Patna,Home Appliances,Washing Machine,12486,1342,1,Suresh,UPI,Sneha,1
+ORD0672,2024-04-07,South,Bengaluru,Furniture,Table,58119,15416,9,Suresh,Debit Card,Ravi,2
+ORD0673,2024-09-05,West,Pune,Electronics,Laptop,22771,6342,8,Nikhil,UPI,Ravi,5
+ORD0674,2024-02-22,South,Hyderabad,Clothing,Shoes,52345,4774,1,Pooja,Cash,Ravi,5
+ORD0675,2024-12-13,East,Kolkata,Home Appliances,Microwave,64714,12485,10,Nikhil,Credit Card,Rahul,5
+ORD0676,2024-08-30,North,Jaipur,Grocery,Sugar,73516,6908,7,Suresh,Cash,Anjali,4
+ORD0677,2024-08-12,West,Mumbai,Furniture,Sofa,96185,11761,6,Lakshmi,Credit Card,Anjali,5
+ORD0678,2024-08-29,West,Mumbai,Clothing,Shirt,55638,14648,6,Ramesh,Credit Card,Vikram,1
+ORD0679,2024-07-31,West,Mumbai,Furniture,Table,21488,4582,2,Nikhil,Debit Card,Sneha,2
+ORD0680,2024-09-14,North,Delhi,Clothing,Jacket,47798,10942,3,Amit,UPI,Anjali,4
+ORD0681,2024-06-23,North,Chandigarh,Furniture,Chair,74660,9653,5,Karthik,UPI,Vikram,2
+ORD0682,2024-02-24,North,Chandigarh,Electronics,Monitor,60917,17774,2,Sai,UPI,Rahul,5
+ORD0683,2024-12-28,North,Delhi,Electronics,Mobile,48400,5544,5,Nikhil,Cash,Priya,2
+ORD0684,2024-01-04,East,Bhubaneswar,Furniture,Chair,27462,4849,7,Lakshmi,Cash,Anjali,3
+ORD0685,2024-11-18,South,Hyderabad,Clothing,Jacket,94742,23312,6,Lakshmi,Credit Card,Kiran,2
+ORD0686,2024-12-15,South,Bengaluru,Home Appliances,Microwave,61129,17691,9,Karthik,UPI,Ravi,2
+ORD0687,2024-03-25,North,Chandigarh,Grocery,Rice,12112,1870,7,Pooja,UPI,Kiran,1
+ORD0688,2024-06-04,South,Chennai,Electronics,Smart Watch,39761,6848,9,Karthik,Debit Card,Rahul,3
+ORD0689,2024-11-15,South,Chennai,Home Appliances,Microwave,85394,10685,9,Sai,Cash,Anjali,4
+ORD0690,2024-09-23,South,Bengaluru,Electronics,Laptop,71442,10972,3,Anu,Debit Card,Sneha,1
+ORD0691,2024-10-30,East,Patna,Clothing,Jeans,4069,350,9,Divya,Credit Card,Vikram,4
+ORD0692,2024-03-04,North,Chandigarh,Electronics,Headphones,35046,7637,6,Amit,UPI,Ravi,3
+ORD0693,2024-12-31,North,Jaipur,Clothing,Jeans,98748,29385,10,Anu,Credit Card,Anjali,3
+ORD0694,2024-02-23,East,Patna,Grocery,Oil,94631,15433,4,Karthik,Credit Card,Anjali,4
+ORD0695,2024-03-07,North,Delhi,Home Appliances,Microwave,11740,1177,7,Nikhil,Credit Card,Ravi,1
+ORD0696,2024-05-15,East,Patna,Grocery,Tea,78101,15852,7,Sai,Cash,Kiran,4
+ORD0697,2024-12-30,West,Ahmedabad,Home Appliances,Refrigerator,19919,3809,8,Nikhil,Credit Card,Priya,2
+ORD0698,2024-11-04,West,Pune,Electronics,Mobile,74272,11976,2,Pooja,UPI,Priya,3
+ORD0699,2024-06-04,East,Kolkata,Grocery,Oil,16432,2657,6,Divya,Cash,Rahul,2
+ORD0700,2024-04-03,South,Chennai,Home Appliances,Mixer,40998,11298,4,Nikhil,UPI,Priya,5
+ORD0701,2024-08-19,East,Kolkata,Electronics,Monitor,64068,13202,10,Karthik,Cash,Ravi,5
+ORD0702,2024-06-15,South,Hyderabad,Grocery,Tea,59973,13601,3,Suresh,Cash,Kiran,2
+ORD0703,2024-11-26,West,Pune,Grocery,Rice,88876,24512,5,Suresh,Credit Card,Rahul,5
+ORD0704,2024-10-04,East,Patna,Electronics,Smart Watch,12161,1487,10,Sai,UPI,Sneha,4
+ORD0705,2024-05-05,North,Delhi,Grocery,Oil,3486,489,4,Sai,Cash,Priya,5
+ORD0706,2024-06-23,East,Bhubaneswar,Grocery,Rice,65418,17638,1,Pooja,Credit Card,Kiran,1
+ORD0707,2024-03-27,East,Bhubaneswar,Clothing,T-Shirt,16026,4736,9,Divya,Credit Card,Arjun,3
+ORD0708,2024-06-15,North,Delhi,Clothing,Shirt,89946,10543,10,Ramesh,UPI,Rahul,3
+ORD0709,2024-07-11,West,Mumbai,Clothing,Jeans,55109,15235,5,Suresh,UPI,Sneha,2
+ORD0710,2024-02-01,South,Bengaluru,Grocery,Milk,51469,14867,5,Karthik,Cash,Kiran,1
+ORD0711,2024-12-11,West,Mumbai,Home Appliances,Refrigerator,3440,478,10,Suresh,Credit Card,Arjun,3
+ORD0712,2024-07-10,West,Pune,Electronics,Smart Watch,27667,6978,3,Anu,Credit Card,Sneha,5
+ORD0713,2024-05-28,West,Ahmedabad,Home Appliances,Mixer,1131,292,10,Ramesh,UPI,Rahul,4
+ORD0714,2024-10-26,East,Patna,Clothing,Shirt,47061,12487,4,Anu,Debit Card,Rahul,2
+ORD0715,2024-10-11,North,Jaipur,Electronics,Monitor,92544,9907,3,Divya,Cash,Sneha,5
+ORD0716,2024-05-05,East,Patna,Clothing,Jacket,99657,23489,5,Karthik,Debit Card,Sneha,4
+ORD0717,2024-12-10,East,Kolkata,Furniture,Chair,80794,14933,1,Ramesh,Cash,Ravi,4
+ORD0718,2024-12-10,North,Chandigarh,Electronics,Smart Watch,5056,1397,8,Suresh,Debit Card,Kiran,5
+ORD0719,2024-08-15,East,Bhubaneswar,Furniture,Chair,17353,3154,4,Amit,Credit Card,Rahul,3
+ORD0720,2024-04-29,East,Kolkata,Electronics,Smart Watch,82951,12168,4,Nikhil,Debit Card,Rahul,3
+ORD0721,2024-02-26,West,Ahmedabad,Grocery,Oil,1935,238,7,Divya,Cash,Arjun,5
+ORD0722,2024-03-06,South,Chennai,Grocery,Milk,75074,8905,10,Suresh,Credit Card,Vikram,5
+ORD0723,2024-11-10,South,Chennai,Clothing,Jeans,89864,7646,9,Divya,Cash,Rahul,4
+ORD0724,2024-08-26,North,Jaipur,Home Appliances,Microwave,36918,3942,9,Nikhil,Debit Card,Rahul,2
+ORD0725,2024-04-09,North,Jaipur,Home Appliances,Fan,59833,8949,7,Karthik,UPI,Rahul,2
+ORD0726,2024-11-16,West,Mumbai,Furniture,Table,22558,3438,2,Suresh,UPI,Ravi,4
+ORD0727,2024-06-23,North,Chandigarh,Clothing,Jacket,33394,3463,4,Amit,Debit Card,Sneha,1
+ORD0728,2024-01-18,West,Mumbai,Home Appliances,Fan,17361,1715,1,Pooja,Debit Card,Priya,2
+ORD0729,2024-02-22,North,Jaipur,Electronics,Headphones,81050,17649,2,Amit,UPI,Vikram,4
+ORD0730,2024-01-06,West,Mumbai,Grocery,Tea,31554,8526,10,Nikhil,Cash,Ravi,4
+ORD0731,2024-02-25,North,Jaipur,Electronics,Monitor,68792,10470,4,Suresh,UPI,Priya,5
+ORD0732,2024-11-13,South,Chennai,Furniture,Bed,34591,5471,8,Nikhil,Credit Card,Sneha,2
+ORD0733,2024-06-08,North,Delhi,Furniture,Sofa,77614,13651,6,Sai,Credit Card,Arjun,4
+ORD0734,2024-10-27,East,Patna,Clothing,Jacket,49343,14480,9,Ramesh,UPI,Sneha,5
+ORD0735,2024-02-05,North,Jaipur,Clothing,Jeans,27263,6022,4,Karthik,Credit Card,Ravi,4
+ORD0736,2024-03-24,East,Patna,Grocery,Sugar,81753,11929,6,Suresh,Cash,Rahul,4
+ORD0737,2024-09-03,South,Hyderabad,Furniture,Table,62149,13502,4,Karthik,Cash,Sneha,4
+ORD0738,2024-02-28,South,Hyderabad,Clothing,T-Shirt,10664,1692,9,Ramesh,Debit Card,Ravi,2
+ORD0739,2024-05-14,East,Kolkata,Electronics,Mobile,26929,3837,4,Ramesh,Debit Card,Sneha,2
+ORD0740,2024-07-13,South,Hyderabad,Furniture,Sofa,14263,1206,3,Suresh,Debit Card,Sneha,3
+ORD0741,2024-11-15,West,Mumbai,Clothing,Jacket,87626,10313,9,Pooja,UPI,Priya,2
+ORD0742,2024-11-02,South,Hyderabad,Furniture,Bed,50570,11770,6,Pooja,Credit Card,Rahul,5
+ORD0743,2024-03-05,South,Chennai,Clothing,Jeans,43949,5905,5,Anu,Cash,Sneha,1
+ORD0744,2024-07-10,West,Ahmedabad,Grocery,Rice,22945,4403,9,Nikhil,Cash,Arjun,3
+ORD0745,2024-11-22,East,Patna,Home Appliances,Microwave,63096,8772,7,Sai,UPI,Sneha,2
+ORD0746,2024-10-19,South,Bengaluru,Furniture,Cupboard,29651,4368,7,Ramesh,Debit Card,Vikram,5
+ORD0747,2024-10-25,North,Delhi,Electronics,Headphones,59262,11505,4,Amit,Cash,Anjali,4
+ORD0748,2024-05-19,West,Pune,Home Appliances,Microwave,49170,12636,6,Pooja,UPI,Arjun,4
+ORD0749,2024-09-19,South,Bengaluru,Electronics,Headphones,11802,1708,9,Anu,UPI,Vikram,2
+ORD0750,2024-04-10,North,Delhi,Electronics,Headphones,6017,1204,6,Karthik,Debit Card,Vikram,3
+ORD0751,2024-05-13,South,Chennai,Grocery,Oil,99616,23664,9,Amit,Debit Card,Vikram,3
+ORD0752,2024-07-22,West,Pune,Grocery,Rice,62866,14075,3,Lakshmi,Credit Card,Sneha,4
+ORD0753,2024-06-23,South,Chennai,Grocery,Milk,62438,14919,8,Suresh,Debit Card,Sneha,4
+ORD0754,2024-10-22,West,Mumbai,Home Appliances,Microwave,74196,6427,3,Ramesh,Debit Card,Rahul,4
+ORD0755,2024-12-19,East,Bhubaneswar,Furniture,Cupboard,56799,13113,7,Anu,Debit Card,Anjali,5
+ORD0756,2024-10-17,North,Chandigarh,Electronics,Mobile,21144,6237,6,Sai,Cash,Kiran,2
+ORD0757,2024-10-18,West,Mumbai,Grocery,Tea,25685,4737,6,Nikhil,Debit Card,Priya,2
+ORD0758,2024-09-07,North,Chandigarh,Grocery,Oil,5202,1362,10,Amit,Credit Card,Sneha,1
+ORD0759,2024-08-20,West,Pune,Furniture,Table,39155,8814,2,Amit,Debit Card,Rahul,2
+ORD0760,2024-09-01,East,Bhubaneswar,Home Appliances,Refrigerator,15515,1681,7,Suresh,Cash,Sneha,2
+ORD0761,2024-10-27,South,Bengaluru,Home Appliances,Microwave,21811,4641,5,Lakshmi,Cash,Vikram,2
+ORD0762,2024-09-26,North,Delhi,Home Appliances,Mixer,53328,11362,4,Karthik,Cash,Ravi,4
+ORD0763,2024-06-26,North,Chandigarh,Electronics,Headphones,85711,23469,8,Divya,Cash,Arjun,4
+ORD0764,2024-12-23,South,Hyderabad,Grocery,Tea,61008,10043,3,Sai,UPI,Kiran,1
+ORD0765,2024-12-23,South,Hyderabad,Clothing,Shoes,39258,8898,2,Lakshmi,Cash,Kiran,5
+ORD0766,2024-07-28,North,Jaipur,Electronics,Laptop,67112,16686,6,Nikhil,Credit Card,Vikram,2
+ORD0767,2024-07-14,North,Jaipur,Electronics,Laptop,84737,19725,8,Karthik,Cash,Sneha,4
+ORD0768,2024-12-09,North,Delhi,Clothing,T-Shirt,93943,26470,6,Nikhil,Cash,Ravi,1
+ORD0769,2024-03-23,North,Chandigarh,Furniture,Cupboard,19383,3558,5,Ramesh,UPI,Priya,2
+ORD0770,2024-12-12,East,Kolkata,Grocery,Tea,23079,2240,1,Divya,Credit Card,Ravi,3
+ORD0771,2024-11-21,South,Hyderabad,Electronics,Smart Watch,29333,5199,1,Anu,UPI,Kiran,3
+ORD0772,2024-05-07,West,Mumbai,Grocery,Rice,7378,1843,4,Karthik,Credit Card,Sneha,1
+ORD0773,2024-04-22,North,Jaipur,Electronics,Laptop,45186,11771,2,Suresh,Credit Card,Arjun,1
+ORD0774,2024-11-15,West,Ahmedabad,Electronics,Headphones,43294,8816,4,Lakshmi,Cash,Kiran,1
+ORD0775,2024-11-30,South,Hyderabad,Electronics,Headphones,43384,5127,7,Karthik,UPI,Kiran,2
+ORD0776,2024-02-04,West,Mumbai,Electronics,Headphones,86189,18725,1,Lakshmi,Cash,Vikram,5
+ORD0777,2024-11-03,West,Mumbai,Grocery,Milk,23473,3178,2,Karthik,Cash,Arjun,3
+ORD0778,2024-10-26,South,Chennai,Clothing,Shirt,9849,1514,10,Nikhil,Cash,Sneha,5
+ORD0779,2024-05-04,North,Delhi,Electronics,Smart Watch,17260,2553,7,Sai,UPI,Rahul,2
+ORD0780,2024-05-01,East,Bhubaneswar,Clothing,Jeans,20879,3396,1,Sai,Cash,Anjali,2
+ORD0781,2024-01-13,East,Bhubaneswar,Electronics,Smart Watch,55380,12325,5,Lakshmi,Debit Card,Anjali,2
+ORD0782,2024-11-07,South,Chennai,Electronics,Mobile,91092,21240,4,Pooja,Debit Card,Arjun,4
+ORD0783,2024-04-14,North,Delhi,Home Appliances,Mixer,26226,2398,3,Ramesh,UPI,Arjun,5
+ORD0784,2024-03-25,South,Hyderabad,Grocery,Rice,56868,13619,5,Lakshmi,Credit Card,Kiran,2
+ORD0785,2024-05-19,South,Bengaluru,Clothing,Shoes,59755,17502,4,Nikhil,UPI,Anjali,4
+ORD0786,2024-03-20,West,Mumbai,Home Appliances,Microwave,56403,10782,7,Nikhil,UPI,Kiran,4
+ORD0787,2024-05-11,North,Jaipur,Grocery,Milk,21027,4239,3,Pooja,Cash,Vikram,4
+ORD0788,2024-08-28,East,Bhubaneswar,Grocery,Milk,64025,6135,3,Lakshmi,Credit Card,Sneha,1
+ORD0789,2024-07-10,North,Chandigarh,Clothing,Shirt,54025,15324,7,Pooja,Cash,Vikram,5
+ORD0790,2024-04-09,North,Jaipur,Electronics,Laptop,51439,14663,3,Pooja,Debit Card,Anjali,5
+ORD0791,2024-05-06,West,Ahmedabad,Clothing,T-Shirt,86315,14222,7,Lakshmi,Cash,Rahul,3
+ORD0792,2024-05-10,North,Chandigarh,Furniture,Sofa,80355,14480,3,Lakshmi,Credit Card,Rahul,1
+ORD0793,2024-09-22,North,Chandigarh,Home Appliances,Microwave,93545,19546,2,Lakshmi,Cash,Arjun,4
+ORD0794,2024-10-27,East,Patna,Clothing,Shoes,70887,15940,7,Divya,Cash,Priya,1
+ORD0795,2024-01-04,East,Kolkata,Clothing,Jeans,99079,16601,5,Ramesh,Cash,Rahul,1
+ORD0796,2024-03-28,North,Chandigarh,Home Appliances,Fan,55636,12462,7,Ramesh,Debit Card,Arjun,2
+ORD0797,2024-04-05,South,Bengaluru,Furniture,Bed,15449,2767,4,Lakshmi,UPI,Arjun,2
+ORD0798,2024-02-10,East,Bhubaneswar,Home Appliances,Fan,15312,4150,3,Divya,UPI,Kiran,1
+ORD0799,2024-12-10,East,Kolkata,Clothing,T-Shirt,77761,10237,8,Suresh,UPI,Rahul,3
+ORD0800,2024-07-11,North,Chandigarh,Grocery,Rice,13693,1731,1,Sai,Debit Card,Ravi,4
+ORD0801,2024-06-10,East,Patna,Home Appliances,Washing Machine,49599,11408,6,Lakshmi,Debit Card,Kiran,4
+ORD0802,2024-03-12,North,Jaipur,Clothing,T-Shirt,1404,253,7,Amit,UPI,Vikram,2
+ORD0803,2024-01-02,East,Bhubaneswar,Grocery,Tea,68490,11704,4,Karthik,UPI,Anjali,1
+ORD0804,2024-02-11,East,Patna,Home Appliances,Refrigerator,80529,15026,10,Karthik,Cash,Ravi,1
+ORD0805,2024-10-19,West,Pune,Grocery,Oil,94315,10515,9,Anu,UPI,Arjun,4
+ORD0806,2024-09-03,North,Jaipur,Grocery,Tea,23027,6383,2,Anu,Credit Card,Sneha,2
+ORD0807,2024-03-23,South,Chennai,Electronics,Laptop,58002,17315,1,Karthik,Cash,Vikram,2
+ORD0808,2024-11-20,East,Patna,Home Appliances,Mixer,88225,9692,9,Nikhil,UPI,Anjali,2
+ORD0809,2024-11-30,North,Chandigarh,Clothing,Shirt,95036,23136,7,Anu,Cash,Sneha,2
+ORD0810,2024-04-06,East,Kolkata,Clothing,T-Shirt,15599,1553,10,Suresh,Debit Card,Arjun,3
+ORD0811,2024-07-17,West,Ahmedabad,Electronics,Headphones,9111,1911,4,Pooja,Debit Card,Anjali,2
+ORD0812,2024-03-15,South,Hyderabad,Home Appliances,Mixer,71555,19142,6,Divya,Credit Card,Ravi,4
+ORD0813,2024-11-02,South,Chennai,Clothing,Jeans,98918,22392,1,Karthik,Debit Card,Priya,3
+ORD0814,2024-01-31,West,Ahmedabad,Furniture,Cupboard,39206,9209,7,Karthik,Credit Card,Sneha,2
+ORD0815,2024-01-12,North,Delhi,Home Appliances,Microwave,40203,11922,3,Anu,Cash,Anjali,4
+ORD0816,2024-05-24,West,Pune,Home Appliances,Microwave,10414,2042,5,Lakshmi,Cash,Priya,2
+ORD0817,2024-03-11,East,Patna,Electronics,Headphones,60969,13658,10,Nikhil,Cash,Vikram,2
+ORD0818,2024-02-22,South,Hyderabad,Furniture,Chair,48477,11620,10,Ramesh,Cash,Kiran,2
+ORD0819,2024-09-20,North,Delhi,Clothing,Shirt,24544,7066,2,Karthik,Cash,Arjun,4
+ORD0820,2024-03-29,South,Hyderabad,Electronics,Mobile,52989,9935,10,Pooja,UPI,Ravi,4
+ORD0821,2024-03-03,East,Patna,Home Appliances,Washing Machine,2520,268,2,Nikhil,Credit Card,Rahul,5
+ORD0822,2024-06-01,West,Pune,Electronics,Smart Watch,24736,4068,7,Sai,Credit Card,Priya,3
+ORD0823,2024-07-20,North,Chandigarh,Grocery,Oil,54127,14009,1,Anu,Cash,Priya,5
+ORD0824,2024-10-11,North,Delhi,Electronics,Mobile,79525,18525,1,Nikhil,Debit Card,Priya,1
+ORD0825,2024-02-13,South,Chennai,Furniture,Table,12510,2548,1,Suresh,Debit Card,Anjali,5
+ORD0826,2024-05-30,South,Bengaluru,Electronics,Mobile,40400,3642,9,Anu,Cash,Arjun,5
+ORD0827,2024-04-17,West,Ahmedabad,Clothing,Shoes,47152,10060,9,Suresh,UPI,Sneha,1
+ORD0828,2024-10-29,South,Hyderabad,Clothing,Jeans,18590,3949,4,Karthik,Debit Card,Arjun,5
+ORD0829,2024-07-23,West,Mumbai,Grocery,Sugar,35167,5767,3,Nikhil,UPI,Vikram,4
+ORD0830,2024-12-31,South,Chennai,Furniture,Chair,83518,20143,4,Karthik,Credit Card,Kiran,2
+ORD0831,2024-03-04,East,Bhubaneswar,Home Appliances,Mixer,80116,10771,5,Anu,UPI,Kiran,1
+ORD0832,2024-04-25,East,Patna,Electronics,Headphones,44714,11231,3,Divya,UPI,Priya,4
+ORD0833,2024-10-28,South,Bengaluru,Electronics,Laptop,24033,4706,5,Nikhil,UPI,Anjali,5
+ORD0834,2024-06-11,East,Patna,Clothing,Shoes,13984,3877,3,Pooja,Credit Card,Anjali,5
+ORD0835,2024-12-31,West,Pune,Grocery,Oil,34955,2869,9,Ramesh,Credit Card,Arjun,4
+ORD0836,2024-04-03,East,Kolkata,Clothing,Jeans,89895,19229,8,Nikhil,Debit Card,Ravi,5
+ORD0837,2024-06-05,East,Bhubaneswar,Home Appliances,Fan,95170,26067,4,Suresh,Debit Card,Kiran,3
+ORD0838,2024-03-25,North,Chandigarh,Electronics,Laptop,96676,12839,2,Sai,UPI,Priya,3
+ORD0839,2024-09-20,West,Mumbai,Home Appliances,Fan,96787,10647,8,Anu,UPI,Kiran,1
+ORD0840,2024-05-05,South,Chennai,Electronics,Monitor,93090,18390,6,Anu,UPI,Ravi,2
+ORD0841,2024-08-04,South,Hyderabad,Electronics,Headphones,18474,3565,1,Nikhil,Cash,Arjun,3
+ORD0842,2024-05-30,North,Jaipur,Furniture,Bed,16448,2365,8,Divya,Credit Card,Rahul,5
+ORD0843,2024-09-06,West,Mumbai,Clothing,Shoes,5643,1612,10,Amit,Debit Card,Rahul,5
+ORD0844,2024-07-24,West,Pune,Clothing,Jacket,15046,1220,3,Karthik,UPI,Priya,4
+ORD0845,2024-03-04,West,Mumbai,Electronics,Smart Watch,68412,18996,7,Nikhil,UPI,Arjun,3
+ORD0846,2024-10-01,South,Bengaluru,Home Appliances,Washing Machine,40227,6443,3,Divya,UPI,Ravi,4
+ORD0847,2024-02-26,South,Hyderabad,Clothing,Shirt,1761,280,4,Lakshmi,Debit Card,Rahul,2
+ORD0848,2024-12-06,West,Pune,Clothing,T-Shirt,22012,4987,8,Divya,UPI,Kiran,4
+ORD0849,2024-09-13,West,Ahmedabad,Furniture,Sofa,99446,24679,7,Pooja,Credit Card,Priya,1
+ORD0850,2024-01-27,North,Delhi,Furniture,Sofa,66536,5522,4,Karthik,Cash,Rahul,4
+ORD0851,2024-11-12,West,Pune,Clothing,Shirt,11828,2926,4,Ramesh,Credit Card,Sneha,3
+ORD0852,2024-12-24,North,Jaipur,Furniture,Cupboard,27006,4976,2,Anu,Credit Card,Sneha,5
+ORD0853,2024-03-15,South,Hyderabad,Electronics,Mobile,53596,4740,4,Pooja,UPI,Sneha,1
+ORD0854,2024-04-23,North,Jaipur,Home Appliances,Fan,41166,9634,4,Karthik,Cash,Ravi,1
+ORD0855,2024-06-28,West,Ahmedabad,Electronics,Headphones,15425,2147,5,Pooja,Credit Card,Anjali,1
+ORD0856,2024-05-26,South,Hyderabad,Electronics,Laptop,87563,21351,4,Nikhil,Debit Card,Priya,4
+ORD0857,2024-12-08,South,Bengaluru,Home Appliances,Washing Machine,44815,6585,2,Amit,Credit Card,Anjali,3
+ORD0858,2024-04-17,East,Patna,Grocery,Milk,80261,12982,5,Sai,Cash,Priya,1
+ORD0859,2024-04-08,South,Chennai,Grocery,Rice,6379,1333,4,Nikhil,UPI,Priya,5
+ORD0860,2024-03-06,East,Bhubaneswar,Home Appliances,Refrigerator,70934,16922,1,Lakshmi,Cash,Vikram,5
+ORD0861,2024-09-25,East,Bhubaneswar,Home Appliances,Mixer,58163,5519,7,Anu,UPI,Arjun,5
+ORD0862,2024-12-21,East,Patna,Furniture,Sofa,6956,2019,1,Lakshmi,Cash,Ravi,5
+ORD0863,2024-07-24,North,Delhi,Home Appliances,Fan,51351,10462,7,Sai,Debit Card,Sneha,2
+ORD0864,2024-08-21,North,Delhi,Grocery,Oil,78609,18337,9,Anu,Debit Card,Vikram,2
+ORD0865,2024-09-30,East,Patna,Clothing,Shoes,16611,1954,1,Lakshmi,Debit Card,Rahul,2
+ORD0866,2024-09-30,East,Kolkata,Clothing,T-Shirt,85202,25186,4,Suresh,UPI,Anjali,5
+ORD0867,2024-11-09,East,Bhubaneswar,Electronics,Smart Watch,35608,8505,7,Divya,Debit Card,Rahul,1
+ORD0868,2024-12-02,East,Kolkata,Clothing,Jeans,34552,10149,9,Sai,UPI,Kiran,3
+ORD0869,2024-03-20,South,Bengaluru,Furniture,Sofa,36231,4523,7,Nikhil,Credit Card,Kiran,3
+ORD0870,2024-04-06,South,Bengaluru,Electronics,Monitor,24791,4488,3,Sai,Cash,Arjun,3
+ORD0871,2024-02-05,North,Jaipur,Furniture,Table,52668,12177,4,Ramesh,UPI,Kiran,2
+ORD0872,2024-11-04,West,Ahmedabad,Home Appliances,Mixer,95936,18793,1,Suresh,Cash,Kiran,1
+ORD0873,2024-03-14,North,Delhi,Electronics,Mobile,33550,8368,5,Sai,UPI,Rahul,1
+ORD0874,2024-08-15,East,Patna,Electronics,Mobile,19249,3574,10,Ramesh,Debit Card,Anjali,4
+ORD0875,2024-03-04,South,Hyderabad,Electronics,Smart Watch,91707,12732,9,Amit,UPI,Priya,5
+ORD0876,2024-01-13,East,Kolkata,Grocery,Tea,19590,1572,4,Lakshmi,Cash,Kiran,2
+ORD0877,2024-09-08,East,Patna,Clothing,Jeans,90707,14934,2,Ramesh,UPI,Sneha,1
+ORD0878,2024-01-23,East,Bhubaneswar,Electronics,Smart Watch,44741,4744,2,Sai,Credit Card,Arjun,4
+ORD0879,2024-11-15,East,Patna,Furniture,Cupboard,20689,5720,5,Divya,Debit Card,Priya,3
+ORD0880,2024-03-17,West,Ahmedabad,Clothing,Jacket,94232,24096,1,Ramesh,Debit Card,Arjun,4
+ORD0881,2024-03-15,West,Ahmedabad,Home Appliances,Mixer,15832,3279,5,Suresh,Debit Card,Arjun,2
+ORD0882,2024-11-04,West,Pune,Clothing,Shirt,56552,10512,7,Karthik,Credit Card,Sneha,4
+ORD0883,2024-04-27,West,Ahmedabad,Home Appliances,Fan,70962,13367,9,Pooja,UPI,Kiran,5
+ORD0884,2024-07-04,South,Chennai,Electronics,Mobile,48409,3903,1,Anu,Cash,Arjun,1
+ORD0885,2024-08-03,North,Jaipur,Clothing,Jeans,39626,7183,9,Lakshmi,Credit Card,Sneha,1
+ORD0886,2024-07-09,South,Hyderabad,Furniture,Cupboard,97086,8329,7,Amit,UPI,Priya,4
+ORD0887,2024-01-07,South,Hyderabad,Furniture,Sofa,19517,1900,2,Sai,Cash,Arjun,2
+ORD0888,2024-07-29,West,Ahmedabad,Furniture,Bed,92562,26725,8,Karthik,Cash,Rahul,3
+ORD0889,2024-03-23,North,Delhi,Electronics,Laptop,80190,19666,9,Amit,Cash,Kiran,4
+ORD0890,2024-05-19,East,Patna,Grocery,Sugar,93976,12217,3,Suresh,Cash,Arjun,2
+ORD0891,2024-11-05,West,Ahmedabad,Electronics,Mobile,52418,6311,9,Suresh,Cash,Ravi,3
+ORD0892,2024-05-18,West,Pune,Furniture,Chair,49690,11044,4,Suresh,UPI,Priya,3
+ORD0893,2024-04-18,East,Kolkata,Furniture,Sofa,22333,4447,2,Sai,UPI,Vikram,2
+ORD0894,2024-10-16,South,Chennai,Electronics,Mobile,36280,3581,10,Amit,Cash,Rahul,1
+ORD0895,2024-09-13,East,Kolkata,Clothing,T-Shirt,47746,11715,7,Lakshmi,Debit Card,Kiran,3
+ORD0896,2024-02-21,South,Chennai,Electronics,Headphones,54383,15076,9,Anu,Credit Card,Rahul,5
+ORD0897,2024-02-10,West,Pune,Grocery,Rice,39026,4506,8,Suresh,Credit Card,Sneha,2
+ORD0898,2024-08-17,South,Chennai,Grocery,Milk,86379,16854,6,Ramesh,Debit Card,Vikram,3
+ORD0899,2024-02-08,West,Mumbai,Home Appliances,Refrigerator,28370,8492,10,Ramesh,Cash,Priya,1
+ORD0900,2024-03-27,South,Bengaluru,Grocery,Rice,66393,6686,6,Divya,Credit Card,Priya,3
+ORD0901,2024-05-12,East,Bhubaneswar,Electronics,Laptop,24486,5787,8,Nikhil,Debit Card,Ravi,2
+ORD0902,2024-07-28,North,Chandigarh,Home Appliances,Mixer,48641,13083,7,Sai,Credit Card,Ravi,3
+ORD0903,2024-11-13,East,Bhubaneswar,Electronics,Monitor,67314,12050,1,Amit,Credit Card,Rahul,2
+ORD0904,2024-04-24,North,Jaipur,Home Appliances,Refrigerator,75728,12710,2,Pooja,Cash,Priya,3
+ORD0905,2024-07-22,West,Pune,Grocery,Tea,15302,1513,2,Pooja,Credit Card,Kiran,3
+ORD0906,2024-02-28,North,Jaipur,Clothing,Shoes,64739,8207,8,Divya,Cash,Rahul,5
+ORD0907,2024-07-13,South,Bengaluru,Furniture,Table,42967,8808,10,Amit,Debit Card,Kiran,4
+ORD0908,2024-11-21,South,Hyderabad,Furniture,Chair,90610,15679,5,Ramesh,UPI,Arjun,1
+ORD0909,2024-09-25,East,Bhubaneswar,Electronics,Headphones,94350,16918,7,Lakshmi,Debit Card,Arjun,1
+ORD0910,2024-09-03,North,Jaipur,Clothing,Jacket,22565,2791,7,Nikhil,Credit Card,Kiran,3
+ORD0911,2024-11-11,West,Mumbai,Grocery,Milk,27025,2624,10,Ramesh,Debit Card,Anjali,1
+ORD0912,2024-05-14,South,Bengaluru,Furniture,Cupboard,42472,4459,7,Anu,UPI,Ravi,2
+ORD0913,2024-08-03,West,Ahmedabad,Grocery,Rice,5782,740,4,Anu,Credit Card,Kiran,2
+ORD0914,2024-01-09,East,Kolkata,Furniture,Bed,2883,465,6,Divya,Debit Card,Priya,4
+ORD0915,2024-09-24,West,Pune,Home Appliances,Washing Machine,47165,12366,7,Karthik,UPI,Arjun,4
+ORD0916,2024-07-14,West,Pune,Furniture,Bed,78973,9143,7,Divya,Cash,Vikram,5
+ORD0917,2024-02-23,North,Delhi,Electronics,Laptop,86147,7203,7,Nikhil,UPI,Ravi,5
+ORD0918,2024-10-09,North,Chandigarh,Clothing,Shirt,28770,3712,8,Pooja,UPI,Sneha,4
+ORD0919,2024-01-04,North,Jaipur,Home Appliances,Microwave,85523,20084,7,Karthik,Credit Card,Vikram,3
+ORD0920,2024-01-17,East,Bhubaneswar,Home Appliances,Refrigerator,1544,429,7,Amit,UPI,Arjun,3
+ORD0921,2024-04-08,East,Bhubaneswar,Furniture,Bed,57363,7640,7,Sai,Cash,Rahul,5
+ORD0922,2024-03-22,West,Mumbai,Home Appliances,Refrigerator,53837,15016,9,Pooja,Credit Card,Priya,2
+ORD0923,2024-03-22,North,Chandigarh,Grocery,Tea,83223,23441,9,Karthik,Credit Card,Priya,1
+ORD0924,2024-02-10,North,Jaipur,Electronics,Smart Watch,21060,1813,9,Sai,Cash,Rahul,2
+ORD0925,2024-06-01,West,Ahmedabad,Clothing,Jeans,32420,7247,4,Lakshmi,Credit Card,Kiran,3
+ORD0926,2024-02-22,North,Jaipur,Electronics,Mobile,83239,7082,10,Suresh,Cash,Priya,1
+ORD0927,2024-04-16,South,Bengaluru,Clothing,Jeans,13160,1276,6,Pooja,UPI,Ravi,1
+ORD0928,2024-06-09,West,Mumbai,Home Appliances,Mixer,28563,6604,7,Nikhil,Credit Card,Arjun,3
+ORD0929,2024-06-26,North,Delhi,Grocery,Milk,5122,541,6,Nikhil,UPI,Arjun,5
+ORD0930,2024-09-19,East,Kolkata,Furniture,Bed,4873,964,9,Ramesh,Credit Card,Anjali,1
+ORD0931,2024-05-17,South,Hyderabad,Clothing,Jeans,29804,2931,3,Divya,Cash,Sneha,1
+ORD0932,2024-08-11,East,Patna,Grocery,Sugar,62216,15177,8,Anu,Cash,Sneha,3
+ORD0933,2024-06-08,South,Hyderabad,Clothing,Shirt,14486,3018,10,Ramesh,Credit Card,Ravi,4
+ORD0934,2024-07-15,West,Pune,Grocery,Sugar,42779,9284,10,Pooja,Credit Card,Anjali,3
+ORD0935,2024-05-30,North,Jaipur,Furniture,Chair,68024,9229,7,Sai,Debit Card,Kiran,1
+ORD0936,2024-04-20,North,Delhi,Clothing,Shirt,25368,4025,2,Karthik,Debit Card,Arjun,3
+ORD0937,2024-10-17,North,Delhi,Clothing,T-Shirt,94952,14466,8,Karthik,Credit Card,Priya,4
+ORD0938,2024-11-07,East,Patna,Furniture,Bed,29503,3028,5,Suresh,Cash,Kiran,3
+ORD0939,2024-08-03,East,Kolkata,Furniture,Chair,65740,12471,5,Suresh,UPI,Ravi,2
+ORD0940,2024-11-25,East,Patna,Home Appliances,Refrigerator,76551,6482,1,Sai,UPI,Ravi,3
+ORD0941,2024-02-05,South,Bengaluru,Electronics,Smart Watch,70142,6215,1,Nikhil,UPI,Kiran,3
+ORD0942,2024-09-09,East,Bhubaneswar,Clothing,Shirt,11455,2318,6,Sai,UPI,Kiran,3
+ORD0943,2024-01-25,West,Pune,Electronics,Headphones,81999,8413,4,Amit,Credit Card,Priya,3
+ORD0944,2024-10-02,West,Mumbai,Furniture,Chair,26055,6235,6,Amit,UPI,Vikram,1
+ORD0945,2024-07-13,North,Delhi,Clothing,T-Shirt,35567,5422,10,Divya,Credit Card,Arjun,5
+ORD0946,2024-11-22,West,Mumbai,Furniture,Sofa,20398,5011,7,Nikhil,UPI,Sneha,5
+ORD0947,2024-04-25,West,Ahmedabad,Home Appliances,Washing Machine,43193,10797,8,Suresh,Debit Card,Vikram,1
+ORD0948,2024-01-31,East,Patna,Furniture,Table,92090,8947,8,Lakshmi,UPI,Sneha,4
+ORD0949,2024-09-27,West,Mumbai,Home Appliances,Mixer,45623,5744,10,Anu,Debit Card,Vikram,4
+ORD0950,2024-08-19,South,Chennai,Electronics,Mobile,29676,8358,7,Sai,Credit Card,Kiran,2
+ORD0951,2024-11-27,North,Jaipur,Home Appliances,Refrigerator,90950,13421,10,Suresh,Credit Card,Ravi,1
+ORD0952,2024-12-04,North,Delhi,Electronics,Monitor,25514,3538,8,Anu,Cash,Anjali,3
+ORD0953,2024-09-14,North,Chandigarh,Electronics,Headphones,57554,7289,7,Pooja,Debit Card,Rahul,4
+ORD0954,2024-04-09,East,Bhubaneswar,Electronics,Laptop,86016,14119,7,Divya,Credit Card,Kiran,2
+ORD0955,2024-11-26,East,Patna,Grocery,Tea,68976,12097,1,Lakshmi,UPI,Sneha,1
+ORD0956,2024-05-21,North,Delhi,Grocery,Sugar,32295,3051,2,Lakshmi,Cash,Kiran,4
+ORD0957,2024-06-26,North,Delhi,Clothing,Shirt,27962,3289,4,Divya,Debit Card,Rahul,1
+ORD0958,2024-03-28,South,Chennai,Grocery,Tea,97874,14404,4,Karthik,UPI,Arjun,2
+ORD0959,2024-01-11,East,Bhubaneswar,Furniture,Chair,88298,16283,6,Ramesh,Debit Card,Priya,2
+ORD0960,2024-08-29,North,Chandigarh,Clothing,Shirt,77435,6211,4,Suresh,UPI,Rahul,5
+ORD0961,2024-02-21,East,Kolkata,Grocery,Milk,22928,5642,2,Divya,Debit Card,Ravi,4
+ORD0962,2024-06-29,East,Patna,Clothing,Shirt,34231,5481,1,Divya,Debit Card,Ravi,1
+ORD0963,2024-12-03,East,Patna,Grocery,Rice,20385,6019,4,Ramesh,Debit Card,Ravi,1
+ORD0964,2024-07-12,South,Chennai,Home Appliances,Washing Machine,28041,6835,4,Suresh,Debit Card,Ravi,5
+ORD0965,2024-06-07,South,Bengaluru,Clothing,Jacket,52252,10952,5,Lakshmi,UPI,Anjali,5
+ORD0966,2024-09-12,North,Jaipur,Home Appliances,Fan,46481,6667,1,Ramesh,Cash,Arjun,5
+ORD0967,2024-05-30,East,Patna,Grocery,Oil,40799,7633,2,Amit,Cash,Rahul,2
+ORD0968,2024-06-29,East,Patna,Electronics,Laptop,65011,9574,7,Amit,UPI,Vikram,2
+ORD0969,2024-03-14,East,Bhubaneswar,Grocery,Milk,21321,6179,5,Lakshmi,Cash,Priya,3
+ORD0970,2024-08-04,South,Hyderabad,Home Appliances,Washing Machine,33601,8688,7,Pooja,UPI,Vikram,3
+ORD0971,2024-03-12,East,Kolkata,Grocery,Tea,89987,24539,10,Lakshmi,Debit Card,Arjun,4
+ORD0972,2024-10-06,South,Bengaluru,Clothing,T-Shirt,39972,8180,8,Ramesh,Cash,Kiran,1
+ORD0973,2024-08-27,South,Chennai,Home Appliances,Washing Machine,67036,19150,6,Karthik,Cash,Ravi,4
+ORD0974,2024-02-15,West,Pune,Electronics,Smart Watch,4463,1297,7,Ramesh,Debit Card,Sneha,5
+ORD0975,2024-07-20,East,Kolkata,Grocery,Milk,75130,20519,1,Ramesh,Cash,Rahul,4
+ORD0976,2024-06-19,West,Mumbai,Electronics,Laptop,36412,9560,2,Sai,UPI,Vikram,5
+ORD0977,2024-01-28,West,Ahmedabad,Clothing,T-Shirt,16917,4109,9,Lakshmi,Credit Card,Ravi,2
+ORD0978,2024-09-05,South,Chennai,Furniture,Sofa,83344,12367,1,Sai,Credit Card,Priya,1
+ORD0979,2024-02-23,North,Delhi,Grocery,Rice,69134,7003,4,Nikhil,UPI,Ravi,4
+ORD0980,2024-10-06,North,Delhi,Clothing,Shirt,64402,19075,4,Divya,Cash,Priya,4
+ORD0981,2024-03-28,South,Chennai,Electronics,Mobile,19571,5090,4,Anu,Credit Card,Ravi,4
+ORD0982,2024-07-19,East,Bhubaneswar,Electronics,Smart Watch,65613,10551,5,Pooja,UPI,Ravi,4
+ORD0983,2024-01-06,West,Mumbai,Electronics,Headphones,60910,6482,7,Sai,Debit Card,Rahul,5
+ORD0984,2024-05-21,West,Mumbai,Clothing,Jeans,62329,17086,8,Amit,Credit Card,Anjali,5
+ORD0985,2024-06-29,South,Bengaluru,Grocery,Tea,68245,6401,3,Sai,Debit Card,Ravi,2
+ORD0986,2024-07-11,East,Patna,Clothing,Shirt,9940,2798,8,Nikhil,Credit Card,Vikram,2
+ORD0987,2024-02-04,East,Patna,Grocery,Sugar,77610,16751,7,Amit,UPI,Arjun,2
+ORD0988,2024-05-01,North,Chandigarh,Electronics,Monitor,90040,16640,4,Suresh,Credit Card,Kiran,4
+ORD0989,2024-08-14,North,Delhi,Grocery,Sugar,16004,1412,2,Karthik,UPI,Arjun,3
+ORD0990,2024-10-11,North,Chandigarh,Home Appliances,Microwave,18460,5492,10,Lakshmi,Credit Card,Vikram,4
+ORD0991,2024-09-27,West,Ahmedabad,Clothing,Jeans,27370,6658,7,Lakshmi,UPI,Rahul,1
+ORD0992,2024-10-06,South,Hyderabad,Furniture,Chair,48128,12049,10,Suresh,Debit Card,Arjun,5
+ORD0993,2024-11-12,West,Mumbai,Furniture,Bed,63093,11999,6,Anu,Credit Card,Priya,4
+ORD0994,2024-06-01,West,Ahmedabad,Home Appliances,Mixer,75599,7347,9,Suresh,UPI,Ravi,2
+ORD0995,2024-05-08,North,Chandigarh,Grocery,Sugar,3954,511,5,Pooja,Debit Card,Priya,2
+ORD0996,2024-09-13,East,Kolkata,Grocery,Milk,32640,8737,10,Divya,Cash,Rahul,5
+ORD0997,2024-08-03,North,Chandigarh,Home Appliances,Washing Machine,86620,7500,6,Divya,Credit Card,Anjali,1
+ORD0998,2024-04-30,South,Hyderabad,Grocery,Sugar,87944,24686,1,Nikhil,UPI,Rahul,3
+ORD0999,2024-03-07,North,Jaipur,Grocery,Milk,11563,3182,8,Divya,UPI,Priya,1
+ORD1000,2024-01-11,West,Ahmedabad,Furniture,Sofa,57559,10652,4,Amit,UPI,Sneha,5
