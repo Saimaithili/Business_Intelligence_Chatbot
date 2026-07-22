@@ -2,46 +2,51 @@
 
 ## 🚀 Overview
 
-The Business Intelligence Chatbot is an AI-powered web application that helps users analyze business data and receive instant insights through natural language queries. Instead of manually exploring dashboards and reports, users can upload sales data and ask questions to obtain meaningful business insights.
+The Business Intelligence Chatbot is an AI-powered web application designed to help users analyze business data and generate meaningful insights through natural language queries. The application enables users to upload sales data, explore interactive dashboards, visualize key business metrics, and receive AI-generated responses for business-related questions.
+
+---
+
+## 🎯 Problem Statement
+
+Business managers and analysts often spend significant time searching through reports and dashboards to find important business insights. This project simplifies the decision-making process by allowing users to ask questions in natural language and instantly receive accurate, data-driven insights through an AI-powered chatbot.
 
 ---
 
 ## ✨ Features
 
-* 📈 Interactive Business Dashboard
-* 🤖 AI Chatbot for Business Queries
-* 📊 Sales Analytics and KPIs
-* 📂 CSV File Upload Support
-* 🔍 Natural Language Question Answering
-* 📉 Data Visualization
-* 🎨 User-Friendly Streamlit Interface
+- 📈 Interactive Business Dashboard
+- 🤖 AI-powered Chatbot for Business Queries
+- 📊 Sales Analytics and KPI Monitoring
+- 📂 CSV File Upload Support
+- 📉 Interactive Data Visualizations
+- 🔍 Natural Language Query Processing
+- 💻 User-Friendly Streamlit Interface
 
 ---
 
 ## 🛠️ Technologies Used
 
-* Python
-* Streamlit
-* Pandas
-* Plotly
-* OpenAI API
-* SQL (for business data concepts)
-* HTML
-* CSS
+- Python
+- Streamlit
+- Pandas
+- Plotly
+- OpenAI API
+- HTML
+- CSS
 
 ---
 
 ## 📁 Project Structure
 
-```
+```text
 Business_Intelligence_Chatbot/
 │── app.py
 │── dashboard/
-│── chatbot/
 │── analytics/
+│── chatbot/
 │── data/
-│── static/
 │── assets/
+│── static/
 │── reports/
 │── requirements.txt
 │── README.md
@@ -51,39 +56,39 @@ Business_Intelligence_Chatbot/
 
 ## ⚙️ Installation
 
-1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/Saimaithili/Business_Intelligence_Chatbot.git
 ```
 
-2. Move into the project folder
+### Navigate to the project directory
 
 ```bash
 cd Business_Intelligence_Chatbot
 ```
 
-3. Create a virtual environment
+### Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-4. Activate the virtual environment
+### Activate the virtual environment
 
-Windows:
+**Windows**
 
 ```bash
 venv\Scripts\activate
 ```
 
-5. Install dependencies
+### Install the required packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-6. Run the application
+### Run the application
 
 ```bash
 streamlit run app.py
@@ -91,31 +96,13 @@ streamlit run app.py
 
 ---
 
-## 💡 Sample Questions
+## 💬 Sample Questions
 
-* What are the total sales?
-* Which region generated the highest revenue?
-* Which product category has the highest profit?
-* Show monthly sales trend.
-* Which category is underperforming?
-
----
-
-## 🎯 Problem Statement
-
-Business managers often spend significant time searching through dashboards and reports to obtain important business insights. This project simplifies the process by enabling users to ask questions in natural language and receive quick, meaningful responses supported by analytics and visualizations.
-
----
-
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Home Page
-* Dashboard
-* Analytics Page
-* AI Chatbot
-* Reports
+- What are the total sales?
+- Which region generated the highest revenue?
+- Which product category has the highest profit?
+- Show monthly sales trends.
+- Which category is underperforming?
 
 ---
 
