@@ -23,7 +23,10 @@ def show_login():
             if user:
 
                 st.session_state["logged_in"] = True
+                st.session_state["user_id"] = user[0]
                 st.session_state["user_name"] = user[1]
+                st.session_state["user_email"] = user[2]
+
                 st.success(f"Welcome {user[1]} 🎉")
 
                 st.session_state["page"] = "home"

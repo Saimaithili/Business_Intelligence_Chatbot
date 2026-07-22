@@ -1,163 +1,61 @@
 import streamlit as st
-import plotly.express as px
+import pandas as pd
+
+from utils.helper import render_kpi_card, bar_chart, scatter_chart
 
 
-def show_analytics(df):
+def show_analytics():
 
-    st.title("📈 Business Analytics Dashboard")
-    st.markdown("---")
+    st.title("📈 Business Analytics")
 
-    # ============================
-    # Top Products
-    # ============================
+    if "df" not in st.session_state:
+        st.warning("⚠ Please open Dashboard first.")
+        return
 
-    col1, col2 = st.columns(2)
+    df = st.session_state["df"]
 
-    with col1:
+    st.success("Dataset Loaded Successfully ✅")
 
-        st.subheader("🏆 Top 10 Products")
+    # ---------------- Sales Summary ---------------- #
 
-        top_products = (
-            df.groupby("Product")["Sales"]
-            .sum()
-            .sort_values(ascending=False)
-            .head(10)
-            .reset_index()
-        )
+    st.subheader("📊 Sales Summary")
 
-        fig1 = px.bar(
-            top_products,
-            x="Product",
-            y="Sales",
-            color="Sales",
-            text_auto=True
-        )
+    c1, c2 = st.columns(2)
 
-        fig1.update_layout(
-            template="plotly_dark",
-            height=450
-        )
+    with c1:
+        render_kpi_card("📊", "Average Sales", f"₹{df['Sales'].mean():,.0f}", accent="#2DD4BF")
 
-        st.plotly_chart(fig1, use_container_width=True)
+    with c2:
+        render_kpi_card("🚀", "Maximum Sale", f"₹{df['Sales'].max():,.0f}", accent="#F5A524")
 
-    # ============================
-    # Top Sales Persons
-    # ============================
+    st.divider()
 
-    with col2:
+    # ---------------- Profit by Category ---------------- #
 
-        st.subheader("👨‍💼 Top Sales Persons")
+    if "Category" in df.columns:
+        st.subheader("📦 Profit by Category")
+        category_profit = df.groupby("Category")["Profit"].sum()
+        bar_chart(category_profit)
 
-        top_salesperson = (
-            df.groupby("Sales_Person")["Sales"]
-            .sum()
-            .sort_values(ascending=False)
-            .reset_index()
-        )
+    st.divider()
 
-        fig2 = px.bar(
-            top_salesperson,
-            x="Sales_Person",
-            y="Sales",
-            color="Sales",
-            text_auto=True
-        )
+    # ---------------- Sales by Region ---------------- #
 
-        fig2.update_layout(
-            template="plotly_dark",
-            height=450
-        )
+    if "Region" in df.columns:
+        st.subheader("🌍 Sales by Region")
+        region_sales = df.groupby("Region")["Sales"].sum()
+        bar_chart(region_sales)
 
-        st.plotly_chart(fig2, use_container_width=True)
+    st.divider()
 
-    st.markdown("---")
+    # ---------------- Correlation ---------------- #
 
-    # ============================
-    # Payment Analysis
-    # ============================
+    st.subheader("📉 Sales vs Profit")
+    scatter_chart(df[["Sales", "Profit"]], "Sales", "Profit")
 
-    col3, col4 = st.columns(2)
+    st.divider()
 
-    with col3:
+    # ---------------- Raw Data ---------------- #
 
-        st.subheader("💳 Payment Mode Analysis")
-
-        payment = (
-            df.groupby("Payment_Mode")
-            .size()
-            .reset_index(name="Count")
-        )
-
-        fig3 = px.pie(
-            payment,
-            names="Payment_Mode",
-            values="Count",
-            hole=0.5
-        )
-
-        fig3.update_layout(
-            template="plotly_dark",
-            height=420
-        )
-
-        st.plotly_chart(fig3, use_container_width=True)
-
-    # ============================
-    # Rating Analysis
-    # ============================
-
-    with col4:
-
-        st.subheader("⭐ Customer Ratings")
-
-        rating = (
-            df.groupby("Rating")
-            .size()
-            .reset_index(name="Count")
-        )
-
-        fig4 = px.bar(
-            rating,
-            x="Rating",
-            y="Count",
-            color="Rating",
-            text_auto=True
-        )
-
-        fig4.update_layout(
-            template="plotly_dark",
-            height=420
-        )
-
-        st.plotly_chart(fig4, use_container_width=True)
-
-    st.markdown("---")
-
-    # ============================
-    # City Wise Sales
-    # ============================
-
-    st.subheader("🌆 Top 10 Cities by Sales")
-
-    city_sales = (
-        df.groupby("City")["Sales"]
-        .sum()
-        .sort_values(ascending=False)
-        .head(10)
-        .reset_index()
-    )
-
-    fig5 = px.bar(
-        city_sales,
-        x="City",
-        y="Sales",
-        color="Sales",
-        text_auto=True
-    )
-
-    fig5.update_layout(
-        template="plotly_dark",
-        height=500
-    )
-
-    st.plotly_chart(fig5, use_container_width=True)
+    with st.expander("📄 View Dataset"):
+        st.dataframe(df)

@@ -1,219 +1,238 @@
-/* ==========================================
-   Google Font
-========================================== */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-
-/* ==========================================
-   Global
-========================================== */
-
-html,
-body,
-[class*="css"]{
-    font-family:'Poppins',sans-serif;
+:root {
+    --bg-base: #090D17;
+    --bg-surface: #121A2B;
+    --bg-surface-2: #182338;
+    --border: #223049;
+    --accent-teal: #2DD4BF;
+    --accent-amber: #F5A524;
+    --accent-violet: #8B7CF6;
+    --accent-rose: #FB7185;
+    --text-primary: #EAF0F7;
+    --text-muted: #8798AE;
 }
 
-body{
-    background:#0F172A;
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
 }
 
-.stApp{
-    background:linear-gradient(135deg,#0F172A,#111827,#1E293B);
-    color:white;
+h1, h2, h3 {
+    font-family: 'Space Grotesk', sans-serif !important;
+    letter-spacing: -0.02em;
 }
 
-/* ==========================================
-   Sidebar
-========================================== */
+/* ---------- Scrollbar ---------- */
 
-section[data-testid="stSidebar"]{
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--bg-base); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent-teal); }
 
-    background:#111827;
+/* ---------- Sidebar ---------- */
 
-    border-right:1px solid #334155;
-
+section[data-testid="stSidebar"] {
+    background-color: var(--bg-surface);
+    border-right: 1px solid var(--border);
 }
 
-section[data-testid="stSidebar"] h1,
-section[data-testid="stSidebar"] h2,
-section[data-testid="stSidebar"] h3,
-section[data-testid="stSidebar"] p,
-section[data-testid="stSidebar"] label{
-
-    color:white;
-
+div[role="radiogroup"] label {
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    border-left: 3px solid transparent;
+    transition: background 0.15s ease, border-color 0.15s ease;
 }
 
-/* ==========================================
-   Headings
-========================================== */
-
-h1{
-    color:white;
-    font-weight:700;
+div[role="radiogroup"] label:hover {
+    background: rgba(45, 212, 191, 0.08);
 }
 
-h2{
-    color:white;
-    font-weight:600;
+div[role="radiogroup"] label:has(input:checked) {
+    background: rgba(45, 212, 191, 0.12);
+    border-left: 3px solid var(--accent-teal);
 }
 
-h3{
-    color:white;
-    font-weight:600;
+div[role="radiogroup"] label > div:first-child {
+    display: none;
 }
 
-p{
-    color:#CBD5E1;
+/* ---------- Hero ---------- */
+
+.hero {
+    position: relative;
+    background:
+        radial-gradient(circle at 15% 15%, rgba(45,212,191,0.22), transparent 42%),
+        radial-gradient(circle at 85% 0%, rgba(139,124,246,0.16), transparent 40%),
+        linear-gradient(135deg, #090D17, #101C30);
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    padding: 52px 40px;
+    text-align: center;
+    overflow: hidden;
 }
 
-/* ==========================================
-   Buttons
-========================================== */
-
-.stButton>button{
-
-    width:100%;
-
-    height:50px;
-
-    border:none;
-
-    border-radius:12px;
-
-    background:linear-gradient(90deg,#2563EB,#3B82F6);
-
-    color:white;
-
-    font-size:16px;
-
-    font-weight:600;
-
-    cursor:pointer;
-
-    transition:0.3s;
-
-    box-shadow:0px 6px 20px rgba(37,99,235,.30);
-
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.07) 1px, transparent 1px);
+    background-size: 22px 22px;
+    -webkit-mask-image: radial-gradient(ellipse at center, black 35%, transparent 72%);
+    mask-image: radial-gradient(ellipse at center, black 35%, transparent 72%);
 }
 
-.stButton>button:hover{
+.hero-inner { position: relative; }
 
-    transform:translateY(-3px);
-
-    background:linear-gradient(90deg,#1D4ED8,#2563EB);
-
-    box-shadow:0px 10px 25px rgba(37,99,235,.50);
-
+.hero-eyebrow {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent-teal);
+    border: 1px solid rgba(45,212,191,0.35);
+    background: rgba(45,212,191,0.08);
+    padding: 5px 14px;
+    border-radius: 999px;
+    margin-bottom: 18px;
 }
 
-/* ==========================================
-   Text Input
-========================================== */
-
-.stTextInput input{
-
-    background:#1E293B;
-
-    color:white;
-
-    border:2px solid #2563EB;
-
-    border-radius:30px;
-
-    padding:12px;
-
+.hero h1 {
+    font-size: 2.4rem;
+    margin: 6px 0 10px;
+    color: var(--text-primary);
 }
 
-.stTextInput input:focus{
-
-    border:2px solid #60A5FA;
-
-    box-shadow:none;
-
+.hero h3 {
+    font-weight: 500;
+    color: #C7D2E1;
+    margin-bottom: 10px;
 }
 
-/* ==========================================
-   Select Box
-========================================== */
-
-.stSelectbox{
-
-    color:white;
-
+.hero p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
 }
 
-/* ==========================================
-   Metric Cards
-========================================== */
+/* ---------- KPI Cards ---------- */
 
-div[data-testid="metric-container"]{
-
-    background:#1E293B;
-
-    border-radius:18px;
-
-    padding:18px;
-
-    border:1px solid #334155;
-
-    box-shadow:0px 8px 20px rgba(0,0,0,.30);
-
+.kpi-card {
+    background: linear-gradient(160deg, var(--bg-surface), var(--bg-surface-2));
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.15s ease, border-color 0.15s ease;
 }
 
-/* ==========================================
-   Success Boxes
-========================================== */
-
-div[data-testid="stAlert"]{
-
-    border-radius:12px;
-
+.kpi-card:hover {
+    transform: translateY(-2px);
+    border-color: color-mix(in srgb, var(--kpi-accent, var(--accent-teal)) 45%, var(--border));
 }
 
-/* ==========================================
-   Tables
-========================================== */
-
-table{
-
-    border-radius:12px;
-
+.kpi-card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--kpi-accent, var(--accent-teal));
 }
 
-/* ==========================================
-   Divider
-========================================== */
-
-hr{
-
-    border:1px solid #334155;
-
+.kpi-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--kpi-accent, var(--accent-teal)) 18%, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.05rem;
+    margin-bottom: 12px;
 }
 
-/* ==========================================
-   Footer
-========================================== */
-
-footer{
-
-    visibility:hidden;
-
+.kpi-label {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
 
-/* ==========================================
-   Streamlit Menu
-========================================== */
-
-#MainMenu{
-
-    visibility:hidden;
-
+.kpi-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    font-size: 1.55rem;
+    color: var(--text-primary);
 }
 
-header{
+/* ---------- Metric fallback ---------- */
 
-    visibility:hidden;
+div[data-testid="stMetric"] {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent-teal);
+    border-radius: 10px;
+    padding: 16px 18px;
+}
 
+div[data-testid="stMetricValue"] {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+}
+
+div[data-testid="stMetricLabel"] {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* ---------- Buttons ---------- */
+
+.stButton > button {
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--bg-surface);
+    color: var(--text-primary);
+    transition: all 0.15s ease;
+}
+
+.stButton > button:hover {
+    border-color: var(--accent-teal);
+    color: var(--accent-teal);
+    background: rgba(45,212,191,0.08);
+}
+
+/* ---------- Tabs ---------- */
+
+button[data-baseweb="tab"] {
+    color: var(--text-muted);
+    font-family: 'Inter', sans-serif;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: var(--accent-teal);
+}
+
+div[data-baseweb="tab-highlight"] {
+    background-color: var(--accent-teal) !important;
+}
+
+/* ---------- Misc ---------- */
+
+hr {
+    border-color: var(--border) !important;
+}
+
+div[data-testid="stDataFrame"] {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+div[data-testid="stExpander"] {
+    border: 1px solid var(--border) !important;
+    border-radius: 8px !important;
 }

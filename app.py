@@ -3,12 +3,15 @@ import streamlit as st
 from auth.login import show_login
 from auth.signup import show_signup
 from home import show_home
+from utils.helper import load_css
 
 st.set_page_config(
     page_title="AI Business Intelligence Assistant",
     page_icon="🤖",
     layout="wide",
 )
+
+load_css()
 
 # Session State
 if "logged_in" not in st.session_state:
