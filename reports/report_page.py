@@ -1,6 +1,8 @@
 import streamlit as st
 
 from utils.helper import render_kpi_card
+from reports.excel_report import generate_excel
+from reports.pdf_report import generate_pdf
 
 
 def show_reports(df):
@@ -59,16 +61,40 @@ Total Profit : ₹{total_profit:,.0f}
 
     st.divider()
 
-    # ================= Download CSV =================
+    # ================= Download Options =================
 
-    csv = df.to_csv(index=False).encode("utf-8")
+    st.subheader("📥 Export Report")
 
-    st.download_button(
-        "📥 Download Report (CSV)",
-        csv,
-        file_name="business_report.csv",
-        mime="text/csv",
-        use_container_width=True,
-    )
+    d1, d2, d3 = st.columns(3)
+
+    with d1:
+        csv = df.to_csv(index=False).encode("utf-8")
+        st.download_button(
+            "📄 Download CSV",
+            csv,
+            file_name="business_report.csv",
+            mime="text/csv",
+            use_container_width=True,
+        )
+
+    with d2:
+        excel_bytes = generate_excel(df)
+        st.download_button(
+            "📊 Download Excel",
+            excel_bytes,
+            file_name="Sales_Report.xlsx",
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            use_container_width=True,
+        )
+
+    with d3:
+        pdf_bytes = generate_pdf(df)
+        st.download_button(
+            "📕 Download PDF",
+            pdf_bytes,
+            file_name="Business_Report.pdf",
+            mime="application/pdf",
+            use_container_width=True,
+        )
 
     st.success("✅ Report Generated Successfully")

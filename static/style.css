@@ -22,6 +22,15 @@ h1, h2, h3 {
     letter-spacing: -0.02em;
 }
 
+/* ---------- App-wide Background ---------- */
+
+.stApp {
+    background:
+        radial-gradient(circle at 8% -5%, rgba(45,212,191,0.06), transparent 35%),
+        radial-gradient(circle at 95% 105%, rgba(139,124,246,0.05), transparent 35%),
+        var(--bg-base);
+}
+
 /* ---------- Scrollbar ---------- */
 
 ::-webkit-scrollbar { width: 10px; height: 10px; }
@@ -234,5 +243,95 @@ div[data-testid="stDataFrame"] {
 
 div[data-testid="stExpander"] {
     border: 1px solid var(--border) !important;
-    border-radius: 8px !important;
+    border-radius: 8px
+    /* ---------- Login Page Only ---------- */
+
+@keyframes fadeSlideIn {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatBlob {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(20px, -18px) scale(1.08); }
+}
+
+.st-key-login_page {
+    position: relative;
+    padding-top: 40px;
+}
+
+.st-key-login_page::before,
+.st-key-login_page::after {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    filter: blur(70px);
+    z-index: -1;
+    animation: floatBlob 9s ease-in-out infinite;
+}
+
+.st-key-login_page::before {
+    background: rgba(45,212,191,0.18);
+    top: -60px;
+    left: 5%;
+}
+
+.st-key-login_page::after {
+    background: rgba(139,124,246,0.16);
+    bottom: -60px;
+    right: 5%;
+    animation-delay: -4.5s;
+}
+
+.login-brand {
+    text-align: center;
+    animation: fadeSlideIn 0.6s ease both;
+    margin-bottom: 10px;
+}
+
+.login-logo {
+    font-size: 2.6rem;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    margin: 0 auto 14px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, rgba(45,212,191,0.18), rgba(139,124,246,0.18));
+    border: 1px solid var(--border);
+}
+
+.login-brand h1 {
+    font-size: 1.7rem;
+    margin-bottom: 4px;
+}
+
+.login-brand p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.st-key-login_page div[data-testid="stTextInput"] {
+    animation: fadeSlideIn 0.6s ease both;
+    animation-delay: 0.1s;
+}
+
+.st-key-login_page input {
+    background: var(--bg-surface) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 10px !important;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.st-key-login_page input:focus {
+    border-color: var(--accent-teal) !important;
+    box-shadow: 0 0 0 3px rgba(45,212,191,0.15) !important;
+}
+
+.st-key-login_page .stButton > button {
+    animation: fadeSlideIn 0.6s ease both;
+    animation-delay: 0.2s;
+    border-radius: 10px;
 }

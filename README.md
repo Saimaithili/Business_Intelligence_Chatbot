@@ -1,113 +1,36 @@
-# 📊 Business Intelligence Chatbot
+# 🤖 AI Business Intelligence Assistant
 
-## 🚀 Overview
+A full-stack Streamlit web application for analyzing sales data through
+interactive dashboards, natural-language style querying, and exportable
+business reports.
 
-The Business Intelligence Chatbot is an AI-powered web application designed to help users analyze business data and generate meaningful insights through natural language queries. The application enables users to upload sales data, explore interactive dashboards, visualize key business metrics, and receive AI-generated responses for business-related questions.
-
----
-
-## 🎯 Problem Statement
-
-Business managers and analysts often spend significant time searching through reports and dashboards to find important business insights. This project simplifies the decision-making process by allowing users to ask questions in natural language and instantly receive accurate, data-driven insights through an AI-powered chatbot.
+**Live Demo:** _(add your Streamlit Cloud link here after deployment)_
 
 ---
 
 ## ✨ Features
 
-- 📈 Interactive Business Dashboard
-- 🤖 AI-powered Chatbot for Business Queries
-- 📊 Sales Analytics and KPI Monitoring
-- 📂 CSV File Upload Support
-- 📉 Interactive Data Visualizations
-- 🔍 Natural Language Query Processing
-- 💻 User-Friendly Streamlit Interface
+- 🔐 **Secure Authentication** — Sign up / log in with bcrypt password hashing (SQLite-backed)
+- 📊 **Interactive Dashboard** — KPIs, sales trends, region/category breakdowns, top products
+- 📈 **Analytics** — Sales summary stats, profit-by-category, sales-vs-profit correlation
+- 🤖 **AI Chat Assistant** — Ask questions in plain English ("June profit?", "top 5 products",
+  "sales by region") and get instant answers, parsed with a custom NLP-style date/keyword engine
+- 📄 **Reports** — Export business summaries as CSV, Excel, or PDF
+- ⚙️ **Settings** — Editable profile, password change, dataset/chat reset, app info
+- 🎨 **Custom UI Theme** — Dark, data-terminal inspired design with Plotly-powered charts
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Tech Stack
 
-- Python
-- Streamlit
-- Pandas
-- Plotly
-- OpenAI API
-- HTML
-- CSS
-
----
-
-## 📁 Project Structure
-
-```text
-Business_Intelligence_Chatbot/
-│── app.py
-│── dashboard/
-│── analytics/
-│── chatbot/
-│── data/
-│── assets/
-│── static/
-│── reports/
-│── requirements.txt
-│── README.md
-```
+| Layer | Tools |
+|---|---|
+| Frontend / App | Streamlit |
+| Data | Pandas |
+| Charts | Plotly |
+| Auth & DB | SQLite, bcrypt |
+| Reports | ReportLab (PDF), OpenPyXL (Excel) |
 
 ---
 
-## ⚙️ Installation
-
-### Clone the repository
-
-```bash
-git clone https://github.com/Saimaithili/Business_Intelligence_Chatbot.git
-```
-
-### Navigate to the project directory
-
-```bash
-cd Business_Intelligence_Chatbot
-```
-
-### Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-### Activate the virtual environment
-
-**Windows**
-
-```bash
-venv\Scripts\activate
-```
-
-### Install the required packages
-
-```bash
-pip install -r requirements.txt
-```
-
-### Run the application
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 💬 Sample Questions
-
-- What are the total sales?
-- Which region generated the highest revenue?
-- Which product category has the highest profit?
-- Show monthly sales trends.
-- Which category is underperforming?
-
----
-
-## 👩‍💻 Author
-
-**Sai Maithili**
-
-GitHub: https://github.com/Saimaithili
+## 📂 Project Structure
